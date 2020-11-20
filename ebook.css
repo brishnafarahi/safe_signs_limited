@@ -1,0 +1,298 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  line-height: 1.33;
+  color: black;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.33em;
+  line-height: 1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.25em;
+  line-height: 1.07;
+  margin-top: 1.07em;
+  margin-bottom: 1.07em;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1.14;
+  margin-top: 1.14em;
+  margin-bottom: 1.14em;
+}
+
+h4 {
+  font-size: 1.08em;
+  line-height: 1.23;
+  margin-top: 1.23em;
+  margin-bottom: 1.23em;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+p,
+pre,
+ol,
+dl,
+ul,
+table,
+hr {
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+hr {
+  height: 1px;
+  border-style: none;
+  background-color: black;
+}
+
+blockquote {
+  margin: 2.66em 5.32em;
+}
+
+code,
+kbd,
+samp,
+tt,
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.917em;
+  line-height: 1.45;
+}
+
+pre {
+  white-space: pre;
+  background-color: #F0F0F0;
+  border: 1px dotted #D0D0D0;
+  padding: 0.36em;
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: square;
+}
+
+ul ul ul {
+  list-style-type: circle;
+}
+
+ol > li {
+  list-style-image: none;
+}
+
+li {
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+dt {
+  margin-top: 1.33em;
+  margin-bottom: 0;
+}
+
+dt + dt {
+  margin-top: 0;
+}
+
+dd {
+  margin-top: 0;
+  margin-bottom: 1.33em;
+}
+
+/* Title Page */
+div.role-book-title-div {
+  text-align: center;
+}
+
+h1.role-book-title {
+  font-size: 18pt;
+}
+
+.author-name {
+  margin-top: 3em;
+  font-size: 16pt;
+  line-height: 2em;
+}
+
+.creation-date {
+  margin-top: 4em;
+  font-size: 12pt;
+  line-height: 1.33em;
+}
+
+/*
+ * Main TOC
+ */
+
+ul.role-booklist-entries {
+  list-style-type: none;
+  list-style-image: none;
+  padding: 0;
+}
+
+ul.role-booklist-entries ul.role-booklist-entries {
+  list-style-type: none; /* Increased selector specificity. */
+  list-style-image: none;
+  margin-left: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li.role-booklist-entry {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+li.booklist-entry-for-part,
+li.booklist-entry-for-appendices {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+li.booklist-entry-for-book, /*Only inside TOC Frame*/
+li.booklist-entry-for-toc, /*Only inside TOC Frame*/
+li.booklist-entry-for-lot,
+li.booklist-entry-for-lof,
+li.booklist-entry-for-lox,
+li.booklist-entry-for-loe,
+li.booklist-entry-for-index,
+li.booklist-entry-for-chapter,
+li.booklist-entry-for-appendix {
+}
+
+nav.role-local-toc li.booklist-entry-for-section1,
+li.booklist-entry-for-chapter li.booklist-entry-for-section1,
+li.booklist-entry-for-appendix li.booklist-entry-for-section1,
+li.booklist-entry-for-section2,
+li.booklist-entry-for-section3,
+li.booklist-entry-for-section4,
+li.booklist-entry-for-section5,
+li.booklist-entry-for-section6,
+li.booklist-entry-for-section7,
+li.booklist-entry-for-section8,
+li.booklist-entry-for-section9,
+li.booklist-entry-for-section {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a.role-toc-ref { /*Link from TOC Frame*/
+}
+
+/* Bibliography */
+.bibliography-entries > * {
+  line-height: 1.33;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+
+@media print {
+  body {
+    font-family: Garamond, 'Times New Roman', times, serif;
+    font-size: 10pt;
+    line-height: 1.33em;
+    color: black;
+    background-color: white;
+  }
+
+  /* Titles of
+    List of Figures
+    List of Tables
+    List of Equations
+    Table of Contents
+  */
+  h1.role-lof-title,
+  h1.role-lot-title,
+  h1.role-loe-title,
+  h1.role-toc-title {
+    text-align: center;
+    font-size: 18pt;
+    padding-bottom: 0.25em;
+  }
+
+  /* Titles of
+      Part
+      Chapter
+      Appendices
+      Appendix
+  */
+  h1.role-appendix-title,
+  h1.role-appendices-title,
+  h1.role-chapter-title,
+  h1.role-part-title {
+    font-size: 18pt;
+    padding-bottom: 0.25em;
+  }
+
+  /* Titles of
+      Abstract
+      Bibliography
+      Declaration
+  */
+  .abstract-title,
+  .bibliography-title,
+  .declaration-title {
+    text-align: center;
+    font-size: 18pt;
+    padding-bottom: 0.25em;
+  }
+
+  blockquote.role-note,
+  blockquote.role-attention,
+  blockquote.role-caution,
+  blockquote.role-danger,
+  blockquote.role-fastpath,
+  blockquote.role-important,
+  blockquote.role-notice,
+  blockquote.role-remember,
+  blockquote.role-restriction,
+  blockquote.role-tip,
+  blockquote.role-trouble,
+  blockquote.role-warning {
+    padding-left: 0;
+  }
+
+  a[href] {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul.role-booklist-entries a[href],
+  ul.role-index-entries a[href] {
+    color: black;
+  }
+  .div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+  }
+}

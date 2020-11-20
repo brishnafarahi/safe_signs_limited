@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book adjustuserheadings="true" appendicestocdepth="0" appendixnumber=""
+      appendixtocdepth="0" booklistlabels="none" chapternumber="%1"
+      chaptertocdepth="0" equationnumber="%n.%1" examplenumber="%n.%1"
+      figurenumber="%n.%1" footnotenumber="[%1]" headoverridedefault="true"
+      href="TitlePage.html" labelseparator=" " partnumber="%I"
+      parttocdepth="0" preventlonelyheading="true" section1number="%n.%1"
+      section2number="%n.%1" section3number="%n.%1" section4number="%n.%1"
+      section5number="%n.%1" section6number="%n.%1" section7number="%n.%1"
+      section8number="%n.%1" section9number="%n.%1" tablenumber="%n.%1"
+      titlelabels="part figure table example equation" tocdepth="2"
+      xreflabels="part-number chapter-number section-number appendix-number figure-number table-number example-number equation-number"
+      xml:lang="en" xmlns="http://www.xmlmind.com/schema/ebook"
+      xmlns:xxe="http://www.xmlmind.com/xmleditor/namespace/extension"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:ebk="http://www.xmlmind.com/schema/ebook">
+  <headcommon>
+    <html:link href="ebook.css" rel="stylesheet" type="text/css"/>
+  </headcommon>
+
+  <!-- Table of Content -->
+
+  <frontmatter>
+    <section href="Abstract.html"/>
+
+    <lof/>
+
+    <loe/>
+
+    <toc/>
+  </frontmatter>
+
+  <!-- Chapters -->
+
+  <chapter href="ch1/Introduction.html">
+    <section href="ch1/IntroMathML.html"/>
+
+    <section href="ch1/IntroSVG.html"/>
+  </chapter>
+
+  <chapter href="ch2/ch2.html">
+    <section href="ch2/sect1.html"/>
+
+    <section href="ch2/sect2.html"/>
+  </chapter>
+</book>
