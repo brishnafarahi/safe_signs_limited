@@ -8,6 +8,21 @@ For us, it is not just a business, we want to save lives! We want workers to be 
 WEBSITE TITLE:
 SafeSignsLimited
 
+WEBSITE PREFFERED COLOR:
+Font Type should be Verdana and Helvetica
+and preffered color should be white and light blue 
+
+WEBSITE LAYOUT:
+Home Page:
+We would like to have three featured services on our homepage. A link to our contact and patners page, social media icons as well as a video excerpt of the "Napo in Danger" video. Preferrably between 0:00:00 - 0:01:30. Video link is: https://youtu.be/5PrAybF5mJg
+
+Other pages:
+a Banner on top of the pages  with naviagtion on the right and footer on every page that contains :
+1. contact info
+2. Partners Link
+3. Copy rights info
+
+
 INTENDED DOMAIN NAME:
 http://www.safesignslimited.com
 
@@ -24,9 +39,6 @@ For Logo, see "safesignslogo" in .PNG, .SVG and .AI versions included
 
 PAGES FOR THE WEBSITE
 
-Home Page:
-We would like to have three featured services on our homepage. A link to our contact and patners page, social media icons as well as a video excerpt of the "Napo in Danger" video. Preferrably between 0:00:00 - 0:01:30. Video link is: https://youtu.be/5PrAybF5mJg
-
 About Us: 
 SafeSignslimited was established to provide low cost digitally crafted photoluminescent safety Signage, custom-made to fit your taste and corporate or environmental needs. Our designs are exceptional with a guaranteed long-lasting life-cycle at very affordable prices. We provide you with those outstanding designs that keep your people safe,everyday. For every design you make from us, you Contribute to making safety a way of life, everywhere. 10% of all our proceeds is donated to spreading information about health,safety,Security, and the environment (HSSE) through the World Safety Organization's Safety and Emergency Response Ready (Saf ERR) project. SafeSignslimited is beyond just a business brand, we are a movement of concerned people who intend to join others in bringing the message of ASSE into every home, workplace, or community. We also provide consultancy services for our clients. Training recommendation,facility inspection,compliance assessment etc. With our partners,safesignslimited can offer your company or group safety-related services at discount prices.Contact us today,for all your signs and safety requirements. We will be happy to hear from.<br>
 
@@ -39,7 +51,8 @@ Corporate Teams
 
 4. Nosa Patricks: Head,Photography
 
-5. Paul Times Head,Productions
+5. Paul Times: Head,Productions
+6. Peter abovos: Strategist
 
 
 Services: we provide the following services 
@@ -77,3 +90,4 @@ Social Netowrks:
 www.facebook.com/safesignslimited
 www.twitter.com/safesignslimited
 www.instagram.com/safesignslimited
+
