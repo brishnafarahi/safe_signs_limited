@@ -1,4 +1,12 @@
+@font-face {
+    font-family: Verdana;
+    src: url("../fonts/Verdana.ttf");
+}
 
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.ttf");
+}
 
 
 *{
@@ -67,6 +75,15 @@
     text-align: center;
     color:white;
 }
+.container h1 {
+    font-size: 50px;
+}
+.container h2 {
+    padding-top: 20px;
+    justify-content: space-around;
+    text-align: center;
+    font-style: oblique;
+}
 
 
 
@@ -118,39 +135,89 @@
     padding: 1.5em;
 }
 .trafficSigns1 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns2 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns3 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns4 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns5 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns6 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns7 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns8 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 .trafficSigns9 {
-    padding-left: 25px;
+    padding-left: 22px;
 }
 
 .warning1-content {
     padding: 1.5em;
 }
+.warning2-content {
+    padding: 1.5em;
+}
+.warning3-content {
+    padding: 1.5em;
+}
+.warning4-content {
+    padding: 1.5em;
+}
+.warning5-content {
+    padding: 1.5em;
+}
+.warning6-content {
+    padding: 1.5em;
+}
+.warning7-content {
+    padding: 1.5em;
+}
+.warning8-content {
+    padding: 1.5em;
+}
+.warning9-content {
+    padding: 1.5em;
+}
+
 .waringSign1 {
     padding-left: 25px;
 }
+.waringSign2 {
+    padding-left: 25px;
+}
+.waringSign3 {
+    padding-left: 25px;
+}
+.waringSign4 {
+    padding-left: 25px;
+}
+.waringSign5 {
+    padding-left: 25px;
+}
+.waringSign6 {
+    padding-left: 25px;
+}
+.waringSign7 {
+    padding-left: 25px;
+}
+.waringSign8 {
+    padding-left: 25px;
+}
+.waringSign9 {
+    padding-left: 25px;
+}
+
 
 @media (min-width: 700px){
     .grid{
@@ -158,16 +225,65 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
-    #section1 ul, #section2 ul{
+    #section1 ul {
 
         justify-content: space-around;
 
     }
-    #section1 li , #section2 ul{
+    #section1 li {
+        width: 30%;
+        margin: 1em;
+        padding: 1em;
+    }
+    #section2 ul {
+        justify-content: space-around;
+    }
+    #section2 li {
         width: 30%;
         margin: 1em;
         padding: 1em;
     }
 
+}
+
+body {
+    background-color: #333333;
+}
+
+.footer > ul {
+    margin: 100px 0 0;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #1C1B17;
+}
+
+.footer > ul li {
+    text-decoration: none;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #C1C1C1;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #C1C1C1;
+}
+
+.footer > ul ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    bottom: 20px;
+    /*border: 1px solid green;*/
+}
+
+.instagram {
+    padding-top: 8px;
+    padding-left: 15px;
 }
 
