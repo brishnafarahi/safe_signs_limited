@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Verdana;
+    src: url("../fonts/Verdana.ttf");
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*#FF3B3F*/
+    /*background-color: #E5E5E5;*/
+    /*background-image: url("../img/background/img3.jpg");*/
+    /*background-color: #557A95;*/
+    background-color: #B0B7BF;
+}
+
+.header {
+    /*position yet to be added most probably fixed.*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    background-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*border: 1px solid red;*/
+}
+
+.logo {
+    padding: 10px;
+    /*border: 1px solid red;*/
+}
+
+.menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    /*border: 1px solid green;*/
+}
+
+.menu li {
+    list-style: none;
+    padding-top: 50px;
+    /*border: 1px solid red;*/
+}
+
+.menu a {
+    text-decoration: none;
+    /*border: 1px solid green;*/
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #7A7878;
+}
+
+.services {
+    padding: 100px;
+}
+
+.services ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services li {
+    list-style: none;
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.service1 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    background-color: #CAEBF2;
+}
+
+.service1 ul {
+    display: table;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.service1 ul li {
+
+}
+
+
+.service2 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    background-color: #CAEBF2;
+}
+
+.service2 ul {
+    display: table;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.service2 ul li {
+
+}
+
+
+.service3 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    background-color: #CAEBF2;
+}
+
+.service3 ul {
+    display: table;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.service3 ul li {
+
+}
+
+.services a {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #FF3B3F;
+}
+
+.services p {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FF3B3F;
+}
