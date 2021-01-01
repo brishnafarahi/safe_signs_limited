@@ -19,14 +19,14 @@ body {
     /*background-color: #E5E5E5;*/
     /*background-image: url("../img/background/img3.jpg");*/
     /*background-color: #557A95;*/
-    background-color: #B0B7BF;
+    background-color: #292A28;
 }
 
 .header {
     /*position yet to be added most probably fixed.*/
     display: flex;
     justify-content: space-between;
-    background-color: #D9D9D9;
+    background-color: #1C1B17;
     background-blend-mode: luminosity;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /*border: 1px solid red;*/
@@ -39,7 +39,7 @@ body {
 
 .menu {
     display: flex;
-    width: 70%;
+    width: 50%;
     justify-content: space-around;
     /*border: 1px solid green;*/
 }
@@ -57,11 +57,70 @@ body {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #7A7878;
+    color: #C1C1C1;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+
+.banner ul li {
+    text-decoration: none;
+    padding: 20px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.center-text {
+    font-size: 24px;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+
+.service-statement {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.service-statement ul {
+    list-style: none;
+}
+
+.service-statement li {
+    text-decoration: none;
+    padding: 10px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #C1C1C1;
+}
+
+.service-statement li:last-child {
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
 .services {
-    padding: 100px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .services ul {
@@ -79,71 +138,72 @@ body {
 
 .service1 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(4px);
-    background-color: #CAEBF2;
+    background-color: #36827F;
+}
+
+.service1:hover {
+
 }
 
 .service1 ul {
     display: table;
     text-align: center;
     padding: 10px;
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
 .service1 ul li {
-
+    padding: 20px;
 }
 
 
 .service2 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(4px);
-    background-color: #CAEBF2;
+    background-color: #36827F;
 }
 
 .service2 ul {
     display: table;
     text-align: center;
     padding: 10px;
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
 .service2 ul li {
-
+    padding: 20px;
 }
 
 
 .service3 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(4px);
-    background-color: #CAEBF2;
+    background-color: #36827F;
 }
 
 .service3 ul {
     display: table;
     text-align: center;
     padding: 10px;
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
 .service3 ul li {
-
+    padding: 20px;
 }
 
 .services a {
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    letter-spacing: 2px;
-    color: #FF3B3F;
+    letter-spacing: 4px;
+    color: #C1C1C1;
 }
 
 .services p {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #FF3B3F;
+    color: #C1C1C1;
 }
