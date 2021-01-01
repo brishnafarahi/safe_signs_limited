@@ -1,0 +1,173 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1B17;
+    background-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+
+.logo{
+    padding: 10px;
+}
+.nav-barProducts{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.nav-barProducts li {
+    list-style: none;
+    padding-top: 50px;
+    /*border: 1px solid red;*/
+}
+
+.nav-barProducts a {
+    text-decoration: none;
+    /*border: 1px solid green;*/
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #C1C1C1;
+}
+.header{
+    text-align: center;
+    padding: 32px;
+}
+
+
+
+#showcase {
+    background-image: url("../img/banner2.jpg");
+    background-position: center right;
+    min-height : 380px;
+    text-align: center;
+}
+#showcase h1 {
+    color:#ffffff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 150px;
+}
+
+.container {
+    width: 100%;
+    background-color: coral;
+}
+
+.container *{
+    text-align: center;
+    color:white;
+}
+
+
+
+
+#section1, #section2{
+    padding: 5em 1em 1em;
+    background-color: #333333;
+}
+#section1 ul, #section2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    display: inline-flex;
+}
+#section1 li, #section2 li{
+    margin-bottom: 1em;
+    background: lightblue;
+    color: #333;
+}
+
+
+.service1-content {
+    padding: 1.5em;
+}
+.service2-content {
+    padding: 1.5em;
+}
+.service3-content {
+    padding: 1.5em;
+}
+
+.service4-content {
+    padding: 1.5em;
+}
+.service5-content {
+    padding: 1.5em;
+}
+.service6-content {
+    padding: 1.5em;
+}
+.service7-content {
+    padding: 1.5em;
+}
+.service8-content {
+    padding: 1.5em;
+}
+.service9-content {
+    padding: 1.5em;
+}
+.trafficSigns1 {
+    padding-left: 25px;
+}
+.trafficSigns2 {
+    padding-left: 25px;
+}
+.trafficSigns3 {
+    padding-left: 25px;
+}
+.trafficSigns4 {
+    padding-left: 25px;
+}
+.trafficSigns5 {
+    padding-left: 25px;
+}
+.trafficSigns6 {
+    padding-left: 25px;
+}
+.trafficSigns7 {
+    padding-left: 25px;
+}
+.trafficSigns8 {
+    padding-left: 25px;
+}
+.trafficSigns9 {
+    padding-left: 25px;
+}
+
+.warning1-content {
+    padding: 1.5em;
+}
+.waringSign1 {
+    padding-left: 25px;
+}
+
+@media (min-width: 700px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    #section1 ul, #section2 ul{
+
+        justify-content: space-around;
+
+    }
+    #section1 li , #section2 ul{
+        width: 30%;
+        margin: 1em;
+        padding: 1em;
+    }
+
+}
+
