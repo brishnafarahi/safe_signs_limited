@@ -7,6 +7,21 @@
     font-family: Helvetica;
     src: url("../fonts/Helvetica.ttf");
 }
+.nav-barProducts li:hover{
+    /*font-size: 30px;*/
+    /*transition: ease 0.1s;*/
+    background-color: #36827F;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all ease-in 0.2s;
+}
+
+.nav-barProducts li:last-child:hover {
+    background-color: #36827F;
+    padding-left: 20px;
+    padding-right: 10px;
+    transition: all ease-in 0.2s;
+}
 
 
 *{
@@ -67,8 +82,9 @@
 }
 
 .container {
+    padding: 20px;
     width: 100%;
-    background-color: coral;
+    background-color: peru;
 }
 
 .container *{
@@ -76,13 +92,20 @@
     color:white;
 }
 .container h1 {
+    font-family: Verdana, Helvetica, sans-serif;
     font-size: 50px;
+    letter-spacing: 2px;
+    color: #C1C1C1;
+
 }
 .container h2 {
+    font-family: Verdana, Helvetica, sans-serif;
     padding-top: 20px;
     justify-content: space-around;
     text-align: center;
-    font-style: oblique;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #C1C1C1;
 }
 
 
@@ -101,8 +124,9 @@
 }
 #section1 li, #section2 li{
     margin-bottom: 1em;
-    background: lightblue;
+    background: cadetblue;
     color: #333;
+
 }
 
 
@@ -218,11 +242,16 @@
     padding-left: 25px;
 }
 
+#section1 li:hover, #section2 li:hover {
+    background-color: #1C1B17;
+    transition: background-color 1s;
+}
+
 
 @media (min-width: 700px){
     .grid{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: auto auto auto auto;
         gap: 10px;
     }
     #section1 ul {
@@ -272,6 +301,7 @@ body {
 .footer a {
     text-decoration: none;
     color: #C1C1C1;
+
 }
 
 .footer > ul ul {
