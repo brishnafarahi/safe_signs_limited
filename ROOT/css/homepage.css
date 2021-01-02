@@ -58,6 +58,7 @@ body {
 }
 
 .menu a {
+    transition: all ease-out 0.2s;
     text-decoration: none;
     /*border: 1px solid green;*/
     font-family: Verdana, Helvetica, sans-serif;
@@ -143,10 +144,10 @@ body {
     text-decoration: none;
 }
 
-.service1 {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #36827F;
-}
+/*.service1 {*/
+/*    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+/*    background-color: #36827F;*/
+/*}*/
 
 .service1:hover {
 
@@ -165,10 +166,10 @@ body {
 }
 
 
-.service2 {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #36827F;
-}
+/*.service2 {*/
+/*    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+/*    background-color: #36827F;*/
+/*}*/
 
 .service2 ul {
     display: table;
@@ -183,9 +184,10 @@ body {
 }
 
 
-.service3 {
+.service1, .service2, .service3 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #36827F;
+    transition: background-color 1s ease-out;
 }
 
 .service3 ul {
@@ -237,9 +239,11 @@ body {
     display: flex;
     justify-content: space-around;
     /*background-color: #645E9D;*/
+    /*border: 1px solid green;*/
 }
 
 .left ul {
+
     display: table;
     list-style: none;
     height: 700px;
@@ -258,10 +262,12 @@ body {
 }
 
 .left li {
+    /*border: 1px solid red;*/
+    transition: background-color 1s;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #36827F;
-    width: 200px;
+    width: 500px;
 }
 
 .left li:first-child {
@@ -285,14 +291,16 @@ body {
 }
 
 .right li {
+    /*border: 1px solid red;*/
+    transition: background-color 1s;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #36827F;
-    width: 200px;
+    width: 500px;
 }
 
 .right li:first-child {
-    margin: 82px 0;
+    margin: 100px 0;
 }
 
 .center {
@@ -343,4 +351,32 @@ body {
 .instagram {
     padding-top: 8px;
     padding-left: 15px;
+}
+
+/*hover*/
+/*menu items*/
+.menu a:hover{
+    /*font-size: 30px;*/
+    /*transition: ease 0.1s;*/
+    background-color: #36827F;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all ease-in 0.2s;
+}
+
+.menu a:last-child:hover {
+    background-color: #36827F;
+    padding-left: 20px;
+    padding-right: 10px;
+    transition: all ease-in 0.2s;
+}
+
+.service1:hover, .service2:hover, .service3:hover {
+    background-color: #1C1B17;
+    transition: background-color 1s;
+}
+
+.left li:hover, .right li:hover {
+    background-color: #1C1B17;
+    transition: background-color 1s;
 }
