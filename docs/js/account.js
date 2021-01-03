@@ -4,7 +4,7 @@ const img = document.querySelector(".login-img img")
 img_container.addEventListener("mousemove", (e) => {
     let xAxis = (499 - e.pageX) / 15;
     let yAxis = (492.5 - e.pageY) / 15;
-    img.style.transform = `rotateY(${yAxis}deg) rotateX(${xAxis}deg)`;
+    img.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
     // console.log(e.pageX, e.pageY)
     // console.log(img_container.innerWidth, window.innerHeight)
     console.log(`rotateY(${xAxis}deg) rotateX(${yAxis})`)
