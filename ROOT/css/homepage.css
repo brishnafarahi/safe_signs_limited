@@ -19,7 +19,8 @@ body {
     /*background-color: #E5E5E5;*/
     /*background-image: url("../img/background/img3.jpg");*/
     /*background-color: #557A95;*/
-    background-color: #292A28;
+    /*background-color: #292A28;*/
+    background-color: white;
 }
 
 .header {
@@ -116,7 +117,8 @@ body {
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .service-statement li:last-child {
@@ -186,7 +188,8 @@ body {
 
 .service1, .service2, .service3 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #36827F;
+    /*background-color: #36827F;*/
+    background-color: skyblue;
     transition: background-color 1s ease-out;
 }
 
@@ -207,14 +210,16 @@ body {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 4px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .services p {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .sample-products {
@@ -224,7 +229,8 @@ body {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 4px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .products-and-video {
@@ -254,7 +260,8 @@ body {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .left a {
@@ -266,7 +273,8 @@ body {
     transition: background-color 1s;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #36827F;
+    /*background-color: #36827F;*/
+    background-color: skyblue;
     width: 500px;
 }
 
@@ -284,7 +292,8 @@ body {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 .right a {
     text-decoration: none;
@@ -295,7 +304,8 @@ body {
     transition: background-color 1s;
     padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #36827F;
+    /*background-color: #36827F;*/
+    background-color: skyblue;
     width: 500px;
 }
 
@@ -305,7 +315,7 @@ body {
 
 .center {
     position: relative;
-    top: 50%;
+    top: 50.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -313,7 +323,8 @@ body {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 20px;
     letter-spacing: 3px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .footer > ul {
