@@ -69,16 +69,19 @@
 
 
 #showcase {
-    background-image: url("../img/banner2.jpg");
+
     background-position: center right;
     min-height : 380px;
     text-align: center;
 }
 #showcase h1 {
-    color:#ffffff;
-    font-size: 50px;
-    line-height: 1.6em;
-    padding-top: 150px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: #C1C1C1;
+    margin-top : 150px;
 }
 
 .container {
@@ -113,7 +116,7 @@
 
 #section1, #section2{
     padding: 5em 1em 1em;
-    background-color: #333333;
+    background-color: white;
 }
 #section1 ul, #section2 ul{
     list-style: none;
@@ -124,7 +127,7 @@
 }
 #section1 li, #section2 li{
     margin-bottom: 1em;
-    background: cadetblue;
+    background: skyblue;
     color: #333;
 
 }
