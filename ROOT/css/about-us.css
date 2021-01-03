@@ -19,7 +19,8 @@ body {
     /*background-color: #E5E5E5;*/
     /*background-image: url("../img/background/img3.jpg");*/
     /*background-color: #557A95;*/
-    background-color: #292A28;
+    /*background-color: #292A28;*/
+    background-color: white;
 }
 
 .header {
@@ -146,7 +147,8 @@ body {
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .vision-image {
@@ -172,7 +174,8 @@ body {
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .vision-text {
@@ -187,7 +190,8 @@ body {
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .vision-text p {
@@ -218,7 +222,8 @@ body {
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .purpose-text {
@@ -231,7 +236,8 @@ body {
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .purpose-text p {
@@ -266,7 +272,8 @@ body {
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .mission-text {
@@ -281,7 +288,8 @@ body {
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1px;
-    color: #C1C1C1;
+    /*color: #C1C1C1;*/
+    color: black;
 }
 
 .mission-text p {
