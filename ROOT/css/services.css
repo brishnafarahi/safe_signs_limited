@@ -8,8 +8,7 @@
     src: url("../fonts/Helvetica.ttf");
 }
 .nav-barProducts li:hover{
-    /*font-size: 30px;*/
-    /*transition: ease 0.1s;*/
+
     background-color: #36827F;
     padding-left: 10px;
     padding-right: 10px;
@@ -63,22 +62,28 @@
     color: #C1C1C1;
 }
 
-
 section{
     padding: 10rem 0;
     background-color: #292A28;
-    display: flex;
-    justify-content: space-around;
-    /*border: red 1px solid;*/
+
 }
-.heading{
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    letter-spacing: -3px;
-    margin-right: 5rem;
+
+.container p{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
     text-align: center;
-    color: #C1C1C1;
-    position: relative;
+    letter-spacing: 2px;
+
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+
+
 }
 
 .heading::after{
@@ -93,14 +98,23 @@ section{
     border-radius: 2rem;
 }
 
+.heading{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: -3px;
+    margin-right: 5rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+
 .card-wrapper{
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
-    padding-top: 25px;
-    width: 70vw;
-    /*border: red 1px solid;*/
+    padding-top: 40px;
 }
 
 .card{
@@ -111,26 +125,7 @@ section{
     justify-content: center;
     margin: 2rem 0;
     box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
-    align-items: center;
-}
 
-
-
-.card .card-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.profile-img{
-    width: 15rem;
-    height: 15rem;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: -13rem;
-    z-index: 999;
-    border: 1rem solid #ebeef8;
-    /*margin-left: 125px;*/
 }
 
 .card h1{
@@ -139,29 +134,31 @@ section{
     margin-top: 1.5rem;
     text-align: center;
 
+
 }
 
-.job-title{
-    color: #777;
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-align: center;
-}
+.card .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
+}
 
 .card .btn{
     padding: 1rem 2.5rem;
     background-color: #445ae3;
     border-radius: 2rem;
-    margin: 1rem 0;
+    margin: 1rem 8.5rem;
     text-transform: uppercase;
     color: #eee;
     font-size: 1.4rem;
     transition: all .5s;
     text-align: center;
-    width: 70%;
 }
 
+body{
+    background-color: #292A28;
+}
 
 .card .btn:hover{
     transform: translateY(-2px);
@@ -173,44 +170,6 @@ section{
     box-shadow: none;
 }
 
-.social-media{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem 0;
-    margin-top: 1.5rem;
-    border-top: 1px solid rgba(0,0,0,.1);
-}
-
-.social-media i{
-    font-size: 3rem;
-    transition: color .5s;
-}
-
-.fa-facebook-square{
-    color: #3b5999;
-}
-.fa-twitter-square{
-    color: #55acee;
-}
-
-.fa-instagram-square{
-    color: #e6683c;
-}
-
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram:hover{
-    color: #45e19f;
-
-}
-
-
-body {
-    background-color: #333333;
-}
-
 @media (min-width: 700px){
     .card-wrapper{
         flex-direction: row;
@@ -220,7 +179,8 @@ body {
     }
 
     .card{
-        margin: 2rem;
+        margin: 2rem 2rem;
+
     }
 
 
