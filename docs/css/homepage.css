@@ -113,7 +113,7 @@ footer {
     left: 8px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-device-width: 600px) {
     body {
         overflow-x: hidden;
     }
@@ -128,7 +128,8 @@ footer {
         justify-content: space-around;
         background-color: #36827F;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: all 0.5s ease-in;
+        opacity: 0;
     }
 
     .menu-items a {
@@ -168,6 +169,7 @@ footer {
 
 .nav-active {
     transform: translateX(0%);
+    opacity: 1;
 }
 
 @keyframes navLinkFade {
