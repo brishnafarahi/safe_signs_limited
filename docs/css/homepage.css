@@ -114,12 +114,15 @@ footer {
 }
 
 @media screen and (max-device-width: 600px) {
-    body {
+    html, body {
         overflow-x: hidden;
+    }
+    body {
+        position: relative;
     }
     .menu-items {
         position: absolute;
-        right: 0px;
+        right: 0;
         top: 104px;
         width: 100%;
         height: 40vh;
