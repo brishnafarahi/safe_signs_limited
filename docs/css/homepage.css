@@ -117,10 +117,8 @@ footer {
     html, body {
         overflow-x: hidden;
     }
-    body {
-        position: relative;
-    }
     .menu-items {
+        overflow-x: hidden;
         position: absolute;
         right: 0;
         top: 104px;
