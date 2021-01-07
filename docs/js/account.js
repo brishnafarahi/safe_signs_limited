@@ -1,4 +1,4 @@
-const img_container = document.querySelector(".login-img");
+const img_container = document.querySelector(".logo-container");
 const img = document.querySelector(".login-img img")
 
 img_container.addEventListener("mousemove", (e) => {

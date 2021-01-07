@@ -114,7 +114,7 @@ footer {
     left: 8px;
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
     }
