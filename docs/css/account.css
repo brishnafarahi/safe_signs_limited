@@ -62,6 +62,7 @@ body {
     font-size: 28px;
     letter-spacing: 3px;
 }
+
 .forget-statement {
     font-size: 12px;
     letter-spacing: 1px;
@@ -123,6 +124,7 @@ input[type=submit]:focus {
 .login-input-container h1 {
     margin-top: 60px;
 }
+
 .forget-statement {
     margin-bottom: 60px;
 }
@@ -137,28 +139,41 @@ input[type=submit]:focus {
         grid-template-areas: "col1";
         text-align: center;
     }
+
     .logo-container img {
         visibility: hidden;
     }
+
     .login-input-container {
         grid-area: col1;
         width: 100%;
     }
+
     .login-input-container h1, .email, .password, .submit-button, .forget-statement {
         padding: unset;
     }
-    footer {
-        position: absolute;
-        bottom: 0;
-    }
+
+    /*footer {*/
+    /*    position: absolute;*/
+    /*    bottom: 0;*/
+    /*}*/
     input[type=email], select {
         width: 70%;
     }
+
     input[type=password], select {
         width: 70%;
     }
+
     input[type=submit], select {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        position: unset;
+        bottom: 0;
     }
 }
 
