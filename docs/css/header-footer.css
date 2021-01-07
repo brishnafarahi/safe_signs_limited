@@ -114,13 +114,12 @@ footer {
     left: 8px;
 }
 
-@media screen and (max-width: 600px) {
-    html, body {
+@media screen and (max-device-width: 600px) {
+    body {
         overflow-x: hidden;
     }
     .menu-items {
-        overflow-x: hidden;
-        position: absolute;
+        position: fixed;
         opacity: 0;
         right: 0;
         top: 104px;
@@ -135,7 +134,6 @@ footer {
     }
 
     .menu-items a {
-        overflow-x: hidden;
         opacity: 0;
     }
     .hamburger-menu {
