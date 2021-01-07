@@ -153,10 +153,6 @@ input[type=submit]:focus {
         padding: unset;
     }
 
-    /*footer {*/
-    /*    position: absolute;*/
-    /*    bottom: 0;*/
-    /*}*/
     input[type=email], select {
         width: 70%;
     }
@@ -173,7 +169,6 @@ input[type=submit]:focus {
 @media screen and (max-width: 400px) {
     footer {
         position: unset;
-        bottom: 0;
     }
 }
 
