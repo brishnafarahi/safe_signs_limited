@@ -111,7 +111,9 @@ body {
         position: unset;
         bottom: unset;
     }
-
+    .our-partners-text {
+        display: none;
+    }
     .main {
         width: 100%;
         display: grid;
