@@ -20,6 +20,11 @@ body {
     background-size: 100%;
 }
 
+footer {
+    position: absolute;
+
+}
+
 
 .container {
     display: grid;

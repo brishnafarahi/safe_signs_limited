@@ -1,53 +1,56 @@
-<!doctype html>
-<html lang="en">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width" name="viewport"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="Zain Khurram Chaudhary" name="author"/>
+    <link href="../css/header-footer.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../css/partners.css">
     <title>Partners</title>
 </head>
 <body>
 
 
-<div class="header">
-    <a href="../index.html">
-        <div class="logo"><img alt="Company's Logo" height="100" src="../img/Logo.svg" width="100"></div>
-    </a>
-    <ul class="menu">
-        <a href="../common/products.html">
-            <li>Products</li>
-        </a>
-        <a href="../common/services.html">
-            <li>Services</li>
-        </a>
-        <a href="../common/partners.html">
-            <li>Partners</li>
-        </a>
-        <a href="../common/account.html">
-            <li>Account</li>
-        </a>
-        <a href="#">
-            <div class="shoppingcart">
-                <li><img height="42" src="../img/shoppingcart.png" width="56">
-            </div>
-            </li></a>
-    </ul>
-</div>
+<header>
+    <nav>
+        <div class="logo">
+            <a class="logo-img" href="../index.html"><img alt="Company's Logo" height="100" src="../img/Logo.svg"
+                                                          width="100"/></a>
+        </div>
+        <div class="menu-items">
+            <a class="menu-item1" href="../common/products.html">Products</a>
+            <a class="menu-item2" href="../common/services.html">Services</a>
+            <a class="menu-item3" href="../common/partners.html">Partners</a>
+            <a class="menu-item4" href="../common/account.html">Account</a>
+        </div>
+        <div class="hamburger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</header>
 
 
 
 
 
 <div class="main">
-    <div class="banner"><img src="../img/banners/partners-c.jpg" width="100%"></div>
+    <div class="banner">
+        <picture>
+            <source media="(max-width:700px)" srcset="../img/banners/partners.jpg" />
+            <source media="(min-width:700px)" srcset="../img/banners/partners-c.jpg" />
+            <img src="../img/banners/partners-c.jpg" alt="Flowers" />
+        </picture>
+    </div>
     <div class="our-partners-text">Our Partners</div>
     <div class="partners">We are partners with</div>
-    <div class="partner1"><img src="../img/partners/who.png" alt="" width="60%"></div>
-    <div class="partner2"><img src="../img/partners/osha.svg.png" alt="" width="60%"></div>
-    <div class="partner3"><img src="../img/partners/wso.png" alt="" width="35%"></div>
-    <div class="partner4"><img src="../img/partners/nfpa.svg.png" alt="" width="25%"></div>
+    <div class="partner1"><img src="../img/partners/who-300h.png" alt="" /></div>
+    <div class="partner2"><img src="../img/partners/wso-300h.png" alt="" /></div>
+    <div class="partner3"><img src="../img/partners/nfpa-300h.png" alt="" /></div>
+    <div class="partner4"><img src="../img/partners/osha-300h.png" alt="" /></div>
 </div>
 
 
@@ -61,6 +64,24 @@
 
 
 
+<footer>
+    <div class="footer-items">
+        <div class="copyright"><h4>&#169; 2020 Safe Sign Limited, All Rights Reserved</h4></div>
+        <a class="" href="../common/contact_us.html">Contact Information</a>
+        <a class="" href="../common/about_us.html">About Our Company</a>
+        <div class="social">
+            <div class="social-items">
+                <a href="https://www.facebook.com/safesignslimited"><img alt="" height="59" src="../img/facebook.png"
+                                                                         width="62"/></a>
+                <a href="https://www.twitter.com/safesignslimited"><img alt="" height="59" src="../img/twitter.png"
+                                                                        width="50"/></a>
+                <a class="instagram" href="https://www.instagram.com/safesignslimited"><img alt="" height="38"
+                                                                                            src="../img/instagram.png"
+                                                                                            width="38"/></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
@@ -70,34 +91,8 @@
 
 
 
-<div class="footer">
-    <ul>
-        <li>
-            <div class="copyright"> &#169 2020 Safe Sign Limited, All Rights Reserved</div>
-        </li>
-        <li>
-            <a href="../common/contact_us.html">
-                <div class="contact-information">Contact Information</div>
-            </a>
-        </li>
-        <li>
-            <a href="../common/about_us.html">
-                <div class="about-company">About Our Company</div>
-            </a>
-        </li>
-        <ul>
-            <a href="https://www.facebook.com/safesignslimited">
-                <li class="facebook"><img alt="" height="59" src="../img/facebook.png" width="62"></li>
-            </a>
-            <a href="https://www.twitter.com/safesignslimited">
-                <li class="twitter"><img alt="" height="59" src="../img/twitter.png" width="50"></li>
-            </a>
-            <a href="https://www.instagram.com/safesignslimited">
-                <li class="instagram"><img alt="" height="38" src="../img/instagram.png" width="38"></li>
-            </a>
-        </ul>
-    </ul>
-</div>
+<script src="../js/hamburger.js"></script>
+
 
 </body>
 </html>
