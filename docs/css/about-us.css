@@ -155,11 +155,11 @@ footer {
     grid-area: row62;
     padding-right: 100px;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .mission-image img {
     outline: #36827F 2px solid;
-    padding-bottom: 50px;
     width: 100%;
 }
 
