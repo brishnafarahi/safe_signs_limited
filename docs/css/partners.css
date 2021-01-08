@@ -18,18 +18,19 @@ body {
     background-color: #292A28;
 }
 
-.footer {
+footer {
     position: unset;
     bottom: unset;
 }
 
 .main {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 0.4fr 1fr;
+    /*grid-template-columns: 1fr 0.5fr 0.4fr 1fr;*/
     grid-template-areas:
         "row1 row1 row1 row1"
         "row2 row2 row2 row2"
-        "row31 row32 row33 row34"
+        "row31 row31 row34 row34"
+        "row41 row41 row44 row44"
 ;
     column-gap: 20px;
 }
@@ -70,40 +71,30 @@ body {
 }
 
 .partner1, .partner2, .partner3, .partner4 {
-    padding: 100px 20px calc(450px - 10vw) 50px;
+    padding: 100px 50px 100px 50px;
     text-align: center;
     width: 100%;
 }
 
-.partner1 img, .partner2 img, .partner3 img, .partner4 img {
+.partner1 img, .partner4 img {
     /*height: 100%;*/
-    width: 70%;
+    width: 80%;
 }
-/*.partner2 img, .partner3 img {*/
-/*    width: auto;*/
-/*    height: 10%;*/
-/*    !*width: 100%;*!*/
-/*}*/
+.partner2 img, .partner3 img {
+    width: 70%
+}
 
 .partner1 {
     grid-area: row31;
-    padding-left: 20px;
-    padding-right: 10px;
 }
 .partner2 {
-    grid-area: row32;
-    padding-left: 10px;
-    padding-right: 10px;
+    grid-area: row34;
 }
 .partner3 {
-    grid-area: row33;
-    padding-left: 10px;
-    padding-right: 10px;
+    grid-area: row44;
 }
 .partner4{
-    grid-area: row34;
-    padding-left: 10px;
-    padding-right: 20px;
+    grid-area: row41;
 }
 
 @media screen and (max-width: 700px) {
