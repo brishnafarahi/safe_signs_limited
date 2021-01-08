@@ -47,6 +47,11 @@
     color: #C1C1C1;
 }
 
+footer{
+    position: unset;
+    bottom: unset;
+}
+
 body{
     background-color: #292A28;
 }

@@ -7,6 +7,7 @@
     font-family: Helvetica;
     src: url("../fonts/Helvetica.ttf");
 }
+
 .nav-barProducts li:hover{
     /*font-size: 30px;*/
     /*transition: ease 0.1s;*/
@@ -62,6 +63,17 @@
     letter-spacing: 2px;
     color: #C1C1C1;
 }
+footer{
+    position: unset;
+    bottom: unset;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
 
 
 section{
@@ -72,14 +84,15 @@ section{
     /*border: red 1px solid;*/
 }
 .heading{
+
     text-transform: uppercase;
     font-size: 3.5rem;
     letter-spacing: -3px;
-    margin-right: 5rem;
     text-align: center;
     color: #C1C1C1;
     position: relative;
 }
+
 
 .heading::after{
     content:"";
@@ -91,6 +104,7 @@ section{
     left: 50%;
     transform: translateX(-50%);
     border-radius: 2rem;
+
 }
 
 .card-wrapper{
@@ -98,7 +112,7 @@ section{
     align-items: center;
     align-content: center;
     flex-direction: column;
-    padding-top: 25px;
+    padding-top: 100px;
     width: 70vw;
     /*border: red 1px solid;*/
 }

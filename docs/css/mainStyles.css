@@ -7,6 +7,7 @@
     font-family: Helvetica;
     src: url("../fonts/Helvetica.ttf");
 }
+
 .nav-barProducts li:hover{
     /*font-size: 30px;*/
     /*transition: ease 0.1s;*/
@@ -28,6 +29,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+footer{
+    position: unset;
+    bottom: unset;
 }
 .nav{
     display: flex;
