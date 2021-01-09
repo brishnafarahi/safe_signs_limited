@@ -68,36 +68,33 @@ footer{
 }
 
 section{
-    padding: 10rem 0;
+    padding: 5rem 0;
     background-color: #292A28;
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
+
 
 }
-
 .container{
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
+    justify-content: space-between;
 }
 
+
 .container p{
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
     text-align: center;
     letter-spacing: 2px;
-
 }
 
 .container h1 {
     font-size: 3rem;
     color: #fff;
-    margin-top: 1.5rem;
-    text-align: center;
+
     letter-spacing: 1px;
-
-
 }
 
 .heading::after{
@@ -116,6 +113,7 @@ section{
     text-transform: uppercase;
     font-size: 3.5rem;
     letter-spacing: -3px;
+   /* margin-right: 5rem;*/
     text-align: center;
     color: #333;
     position: relative;
@@ -123,52 +121,48 @@ section{
 
 
 .card-wrapper{
+    width: 90%;
     display: flex;
     align-items: center;
     align-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     padding-top: 100px;
-    width: 70vw;
-
 }
 
 .card{
-    width: 30rem;
+    width: 27rem;
     background-color: #ebeef8;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 2rem 0;
-    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
-    align-items: center;
+    margin: 2rem 1rem;
+    /* box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2); */
 }
 
 .card h1{
     height: 100px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #333;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
-
-
 }
 
 .card .card-img{
     width:100%;
-    height:400px;
+    height:100%;
+    padding-top: 0px;
     object-fit: cover;
-
 }
 
 .card .btn{
-    padding: 1rem 2.5rem;
+
     background-color: #445ae3;
     border-radius: 2rem;
-    margin: 1rem 8.5rem;
+    margin: 1rem 6rem;
     text-transform: uppercase;
     color: #eee;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     transition: all .5s;
     text-align: center;
 }
@@ -187,31 +181,6 @@ body{
     box-shadow: none;
 }
 
-@media screen and (max-width: 4000px){
-
-    .card-wrapper{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card{
-        margin: 2rem;
-
-    }
-@media screen and (max-width:600px) {
-
-
-    .card img {
-        width:100%;
-    }
-    .card {
-        margin: 2rem;
-    }
-}
-
-}
 
 .footer > ul {
     margin: 100px 0 0;
@@ -249,4 +218,18 @@ body{
 .instagram {
     padding-top: 8px;
     padding-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 20rem;
+    }
+    .container{
+        padding-top: 200px;
+    }
 }
