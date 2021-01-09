@@ -220,14 +220,14 @@ body{
     padding-left: 15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .card-wrapper {
         display: flex;
         flex-direction: column;
     }
 
     .card{
-        width: 20rem;
+        width: 60%;
     }
     .container{
         padding-top: 200px;
