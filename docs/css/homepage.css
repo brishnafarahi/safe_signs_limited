@@ -55,15 +55,15 @@ footer {
 
 .banner-text h1 {
     font-weight: bold;
-    font-size: 3vw;
-    letter-spacing: 0.2vw;
+    font-size: 28px;
+    letter-spacing: 4px;
     text-transform: uppercase;
 }
 
 .banner-text h4 {
     font-weight: lighter;
-    font-size: 1.8vw;
-    letter-spacing: 0.1vw;
+    font-size: 18px;
+    letter-spacing: 1px;
     text-transform: lowercase;
 }
 
