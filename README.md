@@ -80,6 +80,11 @@ POLY (RECYCLED) Thickness: 1.6mm Material: Poly Lifespan: Up to 5 years Coating:
 CORFLUTE (RECYCLED) Thickness: 3mm Material: fluted plastic Lifespan: suitable only for temporary applications Coating: None Edges and Mount: Punched
 
 VINYL Thickness: <1mm Material: Adhesive Vinyl Lifespan: 1 year (Outdoors), 4 years (Indoors) Coating: None Edges and Mount: Adhesive. Peel off backing paper and apply on any clean smooth surface
+
+Consultancy & Certification
+Whether you require expert advice on meeting Safety Regulations for your establishment or you just need expert knowledge on equipment installations and certifications. We are your best bet. Whatever your safety needs are, we provide the best expert knowledge and networking just to meet your needs. From recommendations to outsourcing.
+
+Contact us with your needs and one of our consultants will be in contact with you in the shortest possible timeframe. We are always happy to hear from you.
   
 
 Contact us
