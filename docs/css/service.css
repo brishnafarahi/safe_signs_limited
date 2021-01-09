@@ -184,4 +184,8 @@ body{
     .container{
         padding-top: 200px;
     }
+    footer{
+        position: unset;
+        bottom: unset;
+    }
 }
