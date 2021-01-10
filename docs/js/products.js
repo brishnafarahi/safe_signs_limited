@@ -17,7 +17,11 @@ xmlhttp.send();
 xmlDoc=xmlhttp.responseXML;
 
 x=xmlDoc.getElementsByTagName("product");
-i=0;
+a = 0;
+
+
+
+
 
 function displayProducts()
 {
@@ -43,15 +47,9 @@ function displayProducts()
 
 
 
-
-
-
-
-
-
 function next()
 {
-    if (i<x.length-1)
+    if (i<x.length-1 && document.getElementById("card1"))
     {
         i++;
         displayProducts();
