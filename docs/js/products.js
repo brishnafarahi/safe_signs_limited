@@ -1,9 +1,3 @@
-var i = 0;
-var x;
-
-
-
-
 if (window.XMLHttpRequest)
 {// code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
@@ -17,71 +11,197 @@ xmlhttp.send();
 xmlDoc=xmlhttp.responseXML;
 
 x=xmlDoc.getElementsByTagName("product");
-a = 0;
 
+index_card1=-1;
+index_card2=-1;
+index_card3=-1;
+index_card4=-1;
+index_card5=-1;
+index_card6=3;
+index_card7=3;
+index_card8=3;
+index_card9=3;
+index_card10=3;
 
-
-
-
-function displayProducts()
-{
-    let title=(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
-    let material=(x[i].getElementsByTagName("material")[0].childNodes[0].nodeValue);
-    let thickness=(x[i].getElementsByTagName("thickness")[0].childNodes[0].nodeValue);
-    let lifespan=(x[i].getElementsByTagName("lifespan")[0].childNodes[0].nodeValue);
-    let coating=(x[i].getElementsByTagName("coating")[0].childNodes[0].nodeValue);
-    let edgesAndMount=(x[i].getElementsByTagName("EdgesAndMount")[0].childNodes[0].nodeValue);
-    let price=(x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue);
+function displayCard(index) {
+    let title=(x[index].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+    let material=(x[index].getElementsByTagName("material")[0].childNodes[0].nodeValue);
+    let thickness=(x[index].getElementsByTagName("thickness")[0].childNodes[0].nodeValue);
+    let lifespan=(x[index].getElementsByTagName("lifespan")[0].childNodes[0].nodeValue);
+    let coating=(x[index].getElementsByTagName("coating")[0].childNodes[0].nodeValue);
+    let edgesAndMount=(x[index].getElementsByTagName("EdgesAndMount")[0].childNodes[0].nodeValue);
+    let price=(x[index].getElementsByTagName("price")[0].childNodes[0].nodeValue);
     let txt="title: " + title + "<br>Material: " + material + "<br>thickness: "+ thickness  + "<br>lifespan: " + lifespan + "<br>coating: "+ coating + "<br>edgesAndMount: " + edgesAndMount + "<br> price:" + price;
-    document.getElementById("card1").innerHTML=txt;
-    document.getElementById("card2").innerHTML=txt;
-    document.getElementById("card3").innerHTML=txt;
-    document.getElementById("card4").innerHTML=txt;
-    document.getElementById("card5").innerHTML=txt;
-    document.getElementById("card6").innerHTML=txt;
-    document.getElementById("card7").innerHTML=txt;
-    document.getElementById("card8").innerHTML=txt;
-    document.getElementById("card9").innerHTML=txt;
-    document.getElementById("card10").innerHTML=txt;
+    return txt
 }
 
-
-
-function next()
+function next1()
 {
-    if (i<x.length-1 && document.getElementById("card1"))
+    if (index_card1<3)
     {
-        i++;
-        displayProducts();
+        index_card1++;
+        document.getElementById("card1").innerHTML=displayCard(index_card1);
+    }
+}
+function previous1()
+{
+    if (index_card1>0)
+    {
+        index_card1--;
+        document.getElementById("card1").innerHTML=displayCard(index_card1);
     }
 }
 
-function previous()
+function next2()
 {
-    if (i>0)
+    if (index_card2<3)
     {
-        i--;
-        displayProducts();
+        index_card2++;
+        document.getElementById("card2").innerHTML=displayCard(index_card2);
+    }
+}
+function previous2()
+{
+    if (index_card2>0)
+    {
+        index_card2--;
+        document.getElementById("card2").innerHTML=displayCard(index_card2);
+    }
+}
+
+function next3()
+{
+    if (index_card3<3)
+    {
+        index_card3++;
+        document.getElementById("card3").innerHTML=displayCard(index_card3);
+    }
+}
+function previous3()
+{
+    if (index_card3>0)
+    {
+        index_card3--;
+        document.getElementById("card3").innerHTML=displayCard(index_card3);
+    }
+}
+
+function next4()
+{
+    if (index_card4<3)
+    {
+        index_card4++;
+        document.getElementById("card4").innerHTML=displayCard(index_card4);
+    }
+}
+function previous4()
+{
+    if (index_card4>0)
+    {
+        index_card1--;
+        document.getElementById("card4").innerHTML=displayCard(index_card4);
+    }
+}
+
+function next5()
+{
+    if (index_card5<3)
+    {
+        index_card5++;
+        document.getElementById("card5").innerHTML=displayCard(index_card5);
+    }
+}
+function previous5()
+{
+    if (index_card5>0)
+    {
+        index_card5--;
+        document.getElementById("card5").innerHTML=displayCard(index_card5);
     }
 }
 
 
-/*console.log(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
-let title=(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
-let material=(x[i].getElementsByTagName("material")[0].childNodes[0].nodeValue);
-let thickness=(x[i].getElementsByTagName("thickness")[0].childNodes[0].nodeValue);
-let lifespan=(x[i].getElementsByTagName("lifespan")[0].childNodes[0].nodeValue);
-let coating=(x[i].getElementsByTagName("coating")[0].childNodes[0].nodeValue);
-let edgesAndMount=(x[i].getElementsByTagName("EdgesAndMount")[0].childNodes[0].nodeValue);
-let price=(x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue);
-let txt="Material: " + material + "<br>thickness: "+ thickness  + "<br>lifespan: " + lifespan + "<br>coating: "+ coating + "<br>edgesAndMount: " + edgesAndMount + "<br> price:" + price;
-document.getElementById("card1").innerHTML=txt;
-document.getElementById("card2").innerHTML=txt;
-document.getElementById("card3").innerHTML=txt;
-document.getElementById("card4").innerHTML=txt;
-document.getElementById("card5").innerHTML=txt;
-document.getElementById("card6").innerHTML=txt;
-document.getElementById("card7").innerHTML=txt;
-document.getElementById("card8").innerHTML=txt;
-document.getElementById("card9").innerHTML=txt;
-document.getElementById("card10").innerHTML=txt;*/
+function next6()
+{
+    if (index_card6<7)
+    {
+        index_card6++;
+        document.getElementById("card6").innerHTML=displayCard(index_card6);
+    }
+}
+function previous6()
+{
+    if (index_card6>4)
+    {
+        index_card6--;
+        document.getElementById("card6").innerHTML=displayCard(index_card6);
+    }
+}
+
+function next7()
+{
+    if (index_card7<7)
+    {
+        index_card7++;
+        document.getElementById("card7").innerHTML=displayCard(index_card7);
+    }
+}
+function previous7()
+{
+    if (index_card7>4)
+    {
+        index_card7--;
+        document.getElementById("card7").innerHTML=displayCard(index_card7);
+    }
+}
+
+function next8()
+{
+    if (index_card8<7)
+    {
+        index_card8++;
+        document.getElementById("card8").innerHTML=displayCard(index_card8);
+    }
+}
+function previous8()
+{
+    if (index_card8>4)
+    {
+        index_card8--;
+        document.getElementById("card8").innerHTML=displayCard(index_card8);
+    }
+}
+
+function next9()
+{
+    if (index_card9<7)
+    {
+        index_card9++;
+        document.getElementById("card9").innerHTML=displayCard(index_card9);
+    }
+}
+function previous9()
+{
+    if (index_card9>4)
+    {
+        index_card9--;
+        document.getElementById("card9").innerHTML=displayCard(index_card9);
+    }
+}
+
+function next10()
+{
+    if (index_card10<7)
+    {
+        index_card10++;
+        document.getElementById("card10").innerHTML=displayCard(index_card10);
+    }
+}
+function previous10()
+{
+    if (index_card10>4)
+    {
+        index_card10--;
+        document.getElementById("card10").innerHTML=displayCard(index_card10);
+    }
+}
