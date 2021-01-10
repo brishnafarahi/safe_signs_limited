@@ -55,11 +55,46 @@ nav {
     transition: all ease-out 0.2s;
 }
 
+@media screen and (min-width: 600px) {
+    .breadcrumb, .hamburger-menu {
+        background-color: #292A28;
+    }
+}
+
 .menu-items a:hover {
     background-color: #36827F;
     padding-left: 10px;
     padding-right: 10px;
     transition: all ease-in 0.2s;
+}
+
+ul.breadcrumb {
+    padding: 10px 14px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 2px;
+    color: #C1C1C1;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li:last-child {
+    color: #C1C1C1;
+}
+
+ul.breadcrumb li a {
+    color: #36827F;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #18e0dd;
 }
 
 footer {
