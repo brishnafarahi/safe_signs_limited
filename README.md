@@ -97,12 +97,12 @@ www.twitter.com/safesignslimited
 www.instagram.com/safesignslimited
 
 
-=======================================================
-=================Division of Work:=====================
+
+Division of Work:
 =======================================================
 
-Zain Khurram Chaudhary:
-each page with everything Included
+Zain Khurram Chaudhary:  
+each page with everything Included  
 1) Home
 2) Partners
 3) Contact Us
@@ -110,8 +110,8 @@ each page with everything Included
 5) Account
 6) Consultancy And Certification 1/2
 
-Obada Ghazlan:
-each page with everything Included
+Obada Ghazlan:  
+each page with everything Included  
 1) Services
 2) Products
 3) Corporate Teams
