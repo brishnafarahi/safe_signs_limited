@@ -154,7 +154,8 @@ footer {
         overflow-x: hidden;
     }
     .menu-items {
-        position: fixed;
+        position: absolute;
+        pointer-events: none;
         opacity: 0;
         right: 0;
         top: 104px;
@@ -164,7 +165,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         background-color: #36827F;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         transition: transform 0.5s ease;
     }
 
@@ -207,11 +208,9 @@ footer {
     transform: translateX(0%);
     opacity: 1;
     transition: all 0.5s ease-in;
+    pointer-events: unset;
 }
 
-.nav-position {
-    position: absolute;
-}
 
 @keyframes navLinkFade {
     from {

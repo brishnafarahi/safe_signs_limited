@@ -18,10 +18,6 @@ const navSlide = () => {
 
         //Burger Animation
         burger.classList.toggle('toggle');
-
-        //position to fixed
-        nav.classList.toggle('nav-position');
-
     });
 }
 
