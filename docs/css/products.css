@@ -29,6 +29,7 @@ footer {
 }
 
 .card {
+    padding-top: 20px;
     min-height: 400px;
     max-height: 400px;
 }
@@ -69,6 +70,13 @@ section{
     left: 50%;
     transform: translateX(-50%);
     border-radius: 2rem;
+
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    margin-top: auto;
 
 }
 
