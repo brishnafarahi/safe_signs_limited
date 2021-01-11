@@ -96,3 +96,25 @@ www.facebook.com/safesignslimited
 www.twitter.com/safesignslimited
 www.instagram.com/safesignslimited
 
+
+=================================================================================
+=======================Division of Work:=========================================
+=================================================================================
+
+Zain Khurram Chaudhary:
+each page with everything Included
+1) Home
+2) Partners
+3) Contact Us
+4) About Us
+5) Account
+6) Consultancy And Certification 1/2
+
+Obada Ghazlan:
+each page with everything Included
+1) Services
+2) Products
+3) Corporate Teams
+4) Custom Saftey Signs
+5) Vests and Clothing
+6) Consultancy And Certification 1/2
