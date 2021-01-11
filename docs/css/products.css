@@ -101,7 +101,6 @@ section{
 
 .card{
     width: 15rem;
-    background-color: #ebeef8;
     display: flex;
     flex-direction: column;
     justify-content: center;

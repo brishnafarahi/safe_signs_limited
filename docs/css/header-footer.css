@@ -154,7 +154,7 @@ footer {
         overflow-x: hidden;
     }
     .menu-items {
-        position: absolute;
+        position: fixed;
         opacity: 0;
         right: 0;
         top: 104px;
@@ -207,6 +207,10 @@ footer {
     transform: translateX(0%);
     opacity: 1;
     transition: all 0.5s ease-in;
+}
+
+.nav-position {
+    position: absolute;
 }
 
 @keyframes navLinkFade {
