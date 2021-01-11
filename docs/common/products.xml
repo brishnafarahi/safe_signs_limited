@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <product>
+        <title>Traffic Sign</title>
+        <material>Metal(Recycled)</material>
+        <thickness>0.6mm</thickness>
+        <lifespan>up to 7 years</lifespan>
+        <coating>Weather Resistant Coating</coating>
+        <EdgesAndMount>Standard With rounded corners and mounting holes</EdgesAndMount>
+        <price>10 EUR</price>
+    </product>
+    <product>
+        <title>Traffic Sign</title>
+        <material>Poly(Recycled)</material>
+        <thickness>1.6mm</thickness>
+        <lifespan>up to 5 years</lifespan>
+        <coating>UV stable and resists fading and cracking Edges and Mount</coating>
+        <EdgesAndMount>Standard With rounded corners and mounting holes</EdgesAndMount>
+        <price>15 EUR</price>
+    </product>
+    <product>
+        <title>Traffic Sign</title>
+        <material>Corflute(Recycled)</material>
+        <thickness>3mm</thickness>
+        <lifespan>fluted plastic Lifespan</lifespan>
+        <coating>suitable only for temporary applications Coating</coating>
+        <EdgesAndMount>None Edges and Mount: Punched</EdgesAndMount>
+        <price>20 EUR</price>
+    </product>
+    <product>
+        <title>Traffic Sign</title>
+        <material>Vinyl</material>
+        <thickness>&lt;1mm</thickness>
+        <lifespan>1 year (Outdoors), 4 years (Indoors)</lifespan>
+        <coating>Coating: None Edges and Mount</coating>
+        <EdgesAndMount>Adhesive. Peel off backing paper and apply on any clean smooth surface</EdgesAndMount>
+        <price>8 EUR</price>
+    </product>
+    <product>
+        <title>Warning Signs</title>
+        <material>Metal(Recycled)</material>
+        <thickness>0.6mm</thickness>
+        <lifespan>up to 7 years</lifespan>
+        <coating>Weather Resistant Coating</coating>
+        <EdgesAndMount>Standard With rounded corners and mounting holes</EdgesAndMount>
+        <price>10 EUR</price>
+    </product>
+    <product>
+        <title>Warning Signs</title>
+        <material>Poly(Recycled)</material>
+        <thickness>1.6mm</thickness>
+        <lifespan>Up to 5 years</lifespan>
+        <coating>UV stable and resists fading and cracking Edges</coating>
+        <EdgesAndMount>Standard With rounded corners and mounting holes</EdgesAndMount>
+        <price>15 EUR</price>
+    </product>
+    <product>
+        <title>Warning Signs</title>
+        <material>Corflute(Recycled)</material>
+        <thickness>3mm</thickness>
+        <lifespan>suitable only for temporary applications Coating</lifespan>
+        <coating>None Edges</coating>
+        <EdgesAndMount>Punched</EdgesAndMount>
+        <price>20 EUR</price>
+    </product>
+    <product>
+        <title>Warning Signs</title>
+        <material>Vinyl</material>
+        <thickness>&lt; 1mm</thickness>
+        <lifespan>1 year (Outdoors), 4 years (Indoors)</lifespan>
+        <coating>None Edges</coating>
+        <EdgesAndMount>Adhesive. Peel off backing paper and apply on any clean smooth surface</EdgesAndMount>
+        <price>8 EUR</price>
+    </product>
+
+</catalog>

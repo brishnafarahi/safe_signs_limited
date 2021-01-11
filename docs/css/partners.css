@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Verdana;
+    src: url("../fonts/Verdana.ttf");
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url("../fonts/Helvetica.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292A28;
+}
+
+footer {
+    position: unset;
+    bottom: unset;
+}
+
+.main {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    width: 100%;
+    grid-template-areas:
+        "row1"
+        "row2"
+        "row3"
+;
+    column-gap: 20px;
+}
+
+.banner, .our-partners-text {
+    grid-area: row1;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+.our-partners-text {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #1C1B17;
+    top: 45%;
+}
+
+.partners {
+    grid-area: row2;
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #C1C1C1;
+    padding-top: 100px;
+}
+
+.partner-logos {
+
+    grid-area: row3;
+    display: grid;
+    grid-template-columns: auto 20% 20% 20% 20% auto;
+    grid-template-areas:
+            "row30 row31 row32 row33 row34 row35"
+            "row40 row41 row42 row43 row44 row45";
+
+    width: 100%;
+    padding: 100px 20px 50px 20px;
+    text-align: center;
+
+}
+
+.partner1, .partner2, .partner4, .partner5, .partner6, .partner8, .partner9, .partner11 {
+    /*padding: 100px 50px 100px 50px;*/
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.partner9 img, .partner6 img{
+    width: 90%;
+}
+
+.partner1 img,  .partner2 img, .partner4 img, .partner5 img, .partner8 img, .partner11 img {
+    width: auto;
+}
+
+.partner6, .partner9 {
+    display: flex;
+    align-items: center;
+}
+
+
+.partner1 {
+    grid-area: row31;
+}
+.partner2 {
+    grid-area: row32;
+}
+.partner4 {
+    grid-area: row34;
+}
+.partner5 {
+    grid-area: row41;
+}
+.partner6 {
+    grid-area: row42;
+}
+.partner8 {
+    grid-area: row33;
+}
+.partner9 {
+    grid-area: row44;
+}
+.partner11 {
+    grid-area: row43;
+}
+
+@media screen and (max-width: 1400px) {
+    footer {
+        position: unset;
+        bottom: unset;
+    }
+    .our-partners-text {
+        display: none;
+    }
+    .main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "row1"
+        "row2"
+        "row3"
+    ;
+    }
+    .partner-logos {
+        width: 100%;
+        grid-area: row3;
+        display: grid;
+        grid-template-columns: auto 70% auto;
+        grid-template-areas:
+        "row30 row3 row31"
+        "row40 row4 row41"
+        "row50 row5 vrow51"
+        "row60 row6 row61"
+        "row70 row7 row71"
+        "row80 row8 row81"
+        "row90 row9 row91"
+        "row19 row10 row18"
+    ;
+    }
+    .partner1, .partner2, .partner4, .partner5, .partner6, .partner8, .partner9, .partner11 {
+        display: unset;
+        text-align: center;
+        width: 100%;
+    }
+    .partner1 img, .partner2 img, .partner4 img, .partner5 img, .partner6 img, .partner8 img, .partner9 img, .partner11 img {
+        text-align: center;
+        width: 100%;
+    }
+    /*.partner2 img, .partner3 img {*/
+    /*    width: 70%;*/
+    /*}*/
+    .partner1 {
+        grid-area: row3;
+        padding: 40px 20px 20px 20px;
+    }
+    .partner2 {
+        grid-area: row4;
+        padding: 20px;
+    }
+    .partner4{
+        grid-area: row5;
+        padding: 20px;
+    }
+    .partner5{
+        grid-area: row6;
+        padding: 20px;
+    }
+    .partner6{
+        grid-area: row7;
+        padding: 20px;
+    }
+    .partner8{
+        grid-area: row8;
+        padding: 20px;
+    }
+    .partner9{
+        grid-area: row9;
+        padding: 20px;
+    }
+    .partner11{
+        grid-area: row10;
+        padding: 20px;
+    }
+}

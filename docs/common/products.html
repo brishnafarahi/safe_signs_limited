@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta name="author" content="Obada Ghazlan"/>
+    <title>Products</title>
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <script src="../js/products.js" defer="defer"></script>
+</head>
+<body onload="displayProducts();">
+
+<header>
+    <nav>
+        <div class="logo">
+            <a class="logo-img" href="../index.html"><img alt="Company's Logo" height="100" src="../img/Logo.svg"
+                                                          width="100"/></a>
+        </div>
+        <div class="menu-items">
+            <a class="menu-item1" href="../common/products.html">Products</a>
+            <a class="menu-item2" href="../common/services.html">Services</a>
+            <a class="menu-item3" href="../common/partners.html">Partners</a>
+            <a class="menu-item4" href="../common/account.html">Account</a>
+        </div>
+        <div class="breadcrumbs-container">
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li>Products</li>
+            </ul>
+        </div>
+        <div class="hamburger-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</header>
+
+
+<div class="banner">
+    <picture>
+        <img alt="banner" src="../img/banner2.jpg"/>
+    </picture>
+</div>
+
+<section>
+    <div class="container">
+        <h1 class="heading">Our Products</h1>
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="../img/trafficSign1Test.png" alt="traffic signs" class="card-img"/>
+                <h1>Cross Road</h1>
+                <p id="card1"></p>
+                <div class="buttons">
+                    <p id="prev1">
+                        <button onclick="previous1()">Previous</button>
+                    </p>
+                    <p id="next1">
+                        <button onclick="next1()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/trafficSign2.png" alt="traffic signs" class="card-img"/>
+                <h1>Snow</h1>
+                <p id="card2"></p>
+                <div class="buttons">
+                    <p id="prev2">
+                        <button onclick="previous2()">Previous</button>
+                    </p>
+                    <p id="next2">
+                        <button onclick="next2()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/trafficSign3.png" alt="traffic signs" class="card-img"/>
+                <h1>Right Zigzag Bend</h1>
+                <p id="card3"></p>
+                <div class="buttons">
+                    <p id="prev3">
+                        <button onclick="previous3()">Previous</button>
+                    </p>
+                    <p id="next3">
+                        <button onclick="next3()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/trafficSign4.png" alt="traffic signs" class="card-img"/>
+                <h1>Steep Hill</h1>
+                <p id="card4"></p>
+                <div class="buttons">
+                    <p id="prev4">
+                        <button onclick="previous4()">Previous</button>
+                    </p>
+                    <p id="next4">
+                        <button onclick="next4()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/trafficSign5.png" alt="traffic signs" class="card-img"/>
+                <h1>Uneven Road</h1>
+                <p id="card5"></p>
+                <div class="buttons">
+                    <p id="prev5">
+                        <button onclick="previous5()">Previous</button>
+                    </p>
+                    <p id="next5">
+                        <button onclick="next5()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/warningsSigns1.png" alt="traffic signs" class="card-img"/>
+                <p id="card6"></p>
+                <div class="buttons">
+                    <p id="prev6">
+                        <button onclick="previous6()">Previous</button>
+                    </p>
+                    <p id="next6">
+                        <button onclick="next6()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/warningsSigns2.png" alt="traffic signs" class="card-img"/>
+                <p id="card7"></p>
+                <div class="buttons">
+                    <p id="prev7">
+                        <button onclick="previous7()">Previous</button>
+                    </p>
+                    <p id="next7">
+                        <button onclick="next7()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/warningsSigns3.png" alt="traffic signs" class="card-img"/>
+                <p id="card8"></p>
+                <div class="buttons">
+                    <p id="prev8">
+                        <button onclick="previous8()">Previous</button>
+                    </p>
+                    <p id="next8">
+                        <button onclick="next8()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/warningsSigns4.png" alt="traffic signs" class="card-img"/>
+                <p id="card9"></p>
+                <div class="buttons">
+                    <p id="prev9">
+                        <button onclick="previous9()">Previous</button>
+                    </p>
+                    <p id="next9">
+                        <button onclick="next9()">Next</button>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../img/warningsSigns6.png" alt="traffic signs" class="card-img"/>
+                <p id="card10"></p>
+                <div class="buttons">
+                    <p id="prev10">
+                        <button onclick="previous10()">Previous</button>
+                    </p>
+                    <p id="next10">
+                        <button onclick="next10()">Next</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--<header id="showcase">
+    <img src="../img/banner2.jpg" alt="banner" width="100%" height="30%">
+    <div class ="trafficSigns"></div>
+    <h1>Beyond just a Business... We're Saving Lives!</h1>
+</header>-->
+
+
+<!--<div class = "container">
+    <h1>Welcome to Our Products</h1>
+    <h2>For each item on our product photo, we have 4 material specifications (Metal, Poly, Corflute, and Vinyl). Depending on the material specification and design, we create a quote for our clients. This system allows for flexibility in your purchase</h2>
+</div>-->
+
+
+<!--<section id = "section1" class = "grid">
+    <ul>
+        <li>
+            <div class = "service1" tabindex="0">
+                <img src="../img/trafficSigns1.png" width="135" height= "100" alt = "Traffic Signs" class = "trafficSigns1">
+                <div class = "service1-content">
+                    <h2> Traffic Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = service2" tabindex="0">
+                <img src="../img/trafficSigns2.png" width="135" height= "100" alt ="Traffic Signs" class = "trafficSigns2">
+                <div class = "service2-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service3" tabindex="0">
+                <img src="../img/trafficSigns3.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns3">
+                <div class = "service3-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service4" tabindex="0">
+                <img src="../img/trafficSigns4.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns4">
+                <div class = "service4-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service5" tabindex="0">
+                <img src="../img/trafficSigns5.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns5">
+                <div class = "service5-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service6" tabindex="0">
+                <img src="../img/trafficSigns6.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns6">
+                <div class = "service6-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service7" tabindex="0">
+                <img src="../img/trafficSigns7.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns7">
+                <div class = "service7-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service8" tabindex="0">
+                <img src="../img/trafficSigns8.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns8">
+                <div class = "service8-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "service9" tabindex="0">
+                <img src="../img/trafficSigns9.png" width="135" height = "100" alt = "Traffic Signs" class = "trafficSigns9">
+                <div class = "service9-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<section id = "section2" class="grid">
+    <ul>
+        <li>
+            <div class = "warning1" tabindex="0">
+                <img src="../img/warningsSigns1.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign1">
+                <div class = "warning1-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning2" tabindex="0">
+                <img src="../img/warningsSigns2.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign2">
+                <div class = "warning2-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning3" tabindex="0">
+                <img src="../img/warningsSigns3.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign3">
+                <div class = "warning3-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning4" tabindex="0">
+                <img src="../img/warningsSigns4.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign4">
+                <div class = "warning4-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning5" tabindex="0">
+                <img src="../img/warningsSigns5.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign5">
+                <div class = "warning5-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning6" tabindex="0">
+                <img src="../img/warningsSigns6.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign6">
+                <div class = "warning6-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning7" tabindex="0">
+                <img src="../img/warningsSigns7.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign7">
+                <div class = "warning7-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning8" tabindex="0">
+                <img src="../img/warningsSigns8.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign8">
+                <div class = "warning8-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class = "warning9" tabindex="0">
+                <img src="../img/warningsSigns9.png" width="135" height = "150" alt = "Warning Signs" class = "warningSign9">
+                <div class = "warning9-content">
+                    <h2>Warning Signs</h2>
+                    <p><b>METAL (RECYCLED)</b></p>
+                    <p><b>Thickness:</b> 0.6mm</p>
+                    <p><b>Lifespan:</b> up to 7 years</p>
+                    <p><b>Coating:</b> Weather Resistant Coating</p>
+                    <p><b>Edges and Mount:</b> Standard with rounded corners and mounting holes</p>
+                    <div class="price"><b>Price: 10 EUR</b></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>-->
+<!--<div class="footer">
+    <ul>
+        <li>
+            <div class="copyright"> &#169 2020 Safe Sign Limited, All Rights Reserved</div>
+        </li>
+        <li>
+            <a href="contact_us.html">
+                <div class="contact-information">Contact Information</div>
+            </a>
+        </li>
+        <li>
+            <a href="about_us.html">
+                <div class="about-company">About Our Company</div>
+            </a>
+        </li>
+        <ul>
+            <a href="https://www.facebook.com/safesignslimited">
+                <li class="facebook"><img alt="" height="59" src="../img/facebook.png" width="62"></li>
+            </a>
+            <a href="https://www.twitter.com/safesignslimited">
+                <li class="twitter"><img alt="" height="59" src="../img/twitter.png" width="50"></li>
+            </a>
+            <a href="https://www.instagram.com/safesignslimited">
+                <li class="instagram"><img alt="" height="38" src="../img/instagram.png" width="38"></li>
+            </a>
+        </ul>
+    </ul>
+</div> -->
+
+</body>
+
+<footer>
+    <div class="footer-items">
+        <div class="copyright"><h4>&#169; 2020 Safe Sign Limited, All Rights Reserved</h4></div>
+        <a class="" href="../common/contact_us.html">Contact Information</a>
+        <a class="" href="../common/about_us.html">About Our Company</a>
+        <div class="social">
+            <div class="social-items">
+                <a href="https://www.facebook.com/safesignslimited"><img alt="" height="59" src="../img/facebook.png"
+                                                                         width="62"/></a>
+                <a href="https://www.twitter.com/safesignslimited"><img alt="" height="59" src="../img/twitter.png"
+                                                                        width="50"/></a>
+                <a class="instagram" href="https://www.instagram.com/safesignslimited"><img alt="" height="38"
+                                                                                            src="../img/instagram.png"
+                                                                                            width="38"/></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/hamburger.js"></script>
+</html>
