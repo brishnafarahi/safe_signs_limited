@@ -154,7 +154,7 @@ footer {
         overflow-x: hidden;
     }
     .menu-items {
-        position: fixed;
+        position: absolute;
         opacity: 0;
         right: 0;
         top: 104px;
