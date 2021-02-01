@@ -33,6 +33,16 @@ nav {
 
 .logo {
     grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #C1C1C1;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .menu-items {

@@ -74,7 +74,7 @@ footer {
     text-align: center;
     padding-top: 100px;
     font-family: Verdana, Helvetica, sans-serif;
-    color: #C1C1C1;
+    color: #FFFFFF;
 }
 
 .service-statement h1 {
@@ -100,7 +100,7 @@ footer {
     grid-template-columns: auto auto auto;
     column-gap: 20px;
     font-family: Verdana, Helvetica, sans-serif;
-    color: #C1C1C1;
+    color: #FFFFFF;
 }
 
 .service1, .service2, .service3 {
