@@ -109,7 +109,7 @@ ul.breadcrumb li:last-child {
 }
 
 ul.breadcrumb li a {
-    color: #36827F;
+    color: #1EDCC9;
     text-decoration: none;
 }
 
@@ -1674,7 +1674,18 @@ footer {
     cursor: pointer;
     font-size: 20px;
     letter-spacing: 2px;
-    color: #C1C1C1;
+    color: #120000;
+}
+
+/*.contact-us-grid-container input::placeholder, .contact-us-grid-container textarea::placeholder {*/
+/*    color: white;*/
+/*    font-size: 1.3rem;*/
+/*}*/
+
+::placeholder {
+    color: #120000;
+    opacity: 1;
+    font-size: 1.3rem;
 }
 
 .contact-us-grid-container input[type=submit]:hover {
@@ -2210,6 +2221,7 @@ footer {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
+    color: #120000;
 }
 
 .custom-grid-container2 input[type=submit]:hover {
