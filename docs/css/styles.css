@@ -169,6 +169,24 @@ footer {
     left: 8px;
 }
 
+.menu-items-javascript-disabled {
+    display: none;
+}
+.menu-items-javascript-disabled li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-items-javascript-disabled li a{
+    align-items: center;
+    text-decoration: none;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #C1C1C1;
+    font-size: 1.5rem;
+}
+
 @media screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
@@ -221,6 +239,9 @@ footer {
         padding-right: unset;
         position: relative;
         right: 17px;
+    }
+    .menu-items-javascript-disabled {
+        display: unset;
     }
 }
 
