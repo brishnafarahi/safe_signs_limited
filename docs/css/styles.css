@@ -315,7 +315,7 @@ footer {
     color: #FFFFFF;
 }
 
-.homepage-container .service-statement h1 {
+.homepage-container .service-statement h2 {
     font-weight: bold;
     font-size: 28px;
     letter-spacing: 4px;
@@ -348,7 +348,7 @@ footer {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.homepage-container .services h1 {
+.homepage-container .services h3 {
     height: 100px;
     font-size: 25px;
     font-weight: bold;
@@ -383,7 +383,7 @@ footer {
     text-align: center;
 }
 
-.homepage-container .video-container h1, .homepage-container .sample-products h1 {
+.homepage-container .video-container h2, .homepage-container .sample-products h2 {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -575,7 +575,7 @@ footer {
     max-height: 500px;
 }
 
-.products-container .card h1{
+.products-container .card h3{
     font-size: 1.5rem;
     color: #333;
     margin-top: 1.5rem;
@@ -1086,7 +1086,7 @@ footer {
     color: #C1C1C1;
 }
 
-.account-container .login-input-container h1 {
+.account-container .login-input-container h2 {
     font-size: 28px;
     letter-spacing: 3px;
 }
@@ -1150,7 +1150,7 @@ footer {
     outline: none;
 }
 
-.account-container .login-input-container h1 {
+.account-container .login-input-container h2 {
     margin-top: 60px;
 }
 
@@ -1158,7 +1158,7 @@ footer {
     margin-bottom: 60px;
 }
 
-.account-container .login-input-container h1, .account-container .email, .account-container .password,
+.account-container .login-input-container h2, .account-container .email, .account-container .password,
 .account-container .submit-button, .account-container .forget-statement {
     padding: 10px 100px 10px 0px;
 }
@@ -1893,7 +1893,7 @@ footer {
     /*margin-left: 125px;*/
 }
 
-.corporate-team-container .card h1{
+.corporate-team-container .card h3{
     font-size: 2.5rem;
     color: #333;
     margin-top: 1.5rem;
@@ -2271,7 +2271,7 @@ footer {
     letter-spacing: 2px;
 }
 
-.services-container h1 {
+.services-container h3 {
     font-size: 3rem;
     color: #fff;
     letter-spacing: 1px;
@@ -2319,7 +2319,7 @@ footer {
     /* box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2); */
 }
 
-.services-container .card h1{
+.services-container .card h3{
     height: 100px;
     font-size: 2rem;
     color: #333;
@@ -2410,7 +2410,7 @@ footer {
     text-align: center;
     color: #C1C1C1;
     position: relative;
-    padding-bottom: 100px;
+
 }
 
 .vest-container .heading::after{
