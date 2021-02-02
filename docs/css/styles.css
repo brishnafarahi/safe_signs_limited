@@ -43,7 +43,7 @@ nav {
 .logo h1 {
     color: #C1C1C1;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -60,7 +60,7 @@ nav {
     align-items: center;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
     color: #C1C1C1;
@@ -95,7 +95,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 ul.breadcrumb li+li:before {
@@ -152,7 +152,7 @@ footer {
 
 .copyright, .footer-items > a {
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.1rem;
     letter-spacing: 1px;
     color: #C1C1C1;
     padding: 20px;
@@ -317,14 +317,14 @@ footer {
 
 .homepage-container .service-statement h2 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 1.7rem;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
 
 .homepage-container .service-statement h4 {
     font-weight: lighter;
-    font-size: 14px;
+    font-size: .8rem;
     letter-spacing: 1px;
 }
 
@@ -350,14 +350,14 @@ footer {
 
 .homepage-container .services h3 {
     height: 100px;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
 .homepage-container .services p {
     padding-top: 40px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: lighter;
     letter-spacing: 1px;
 }
@@ -385,7 +385,7 @@ footer {
 
 .homepage-container .video-container h2, .homepage-container .sample-products h2 {
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -552,7 +552,7 @@ footer {
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .products-container .card button:hover {
@@ -652,7 +652,7 @@ footer {
     position: relative;
     text-align: center;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -665,7 +665,7 @@ footer {
     position: relative;
     text-align: center;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: 4px;
     color: #C1C1C1;
@@ -842,7 +842,7 @@ footer {
     text-decoration: none;
     padding-top: 50px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -870,7 +870,7 @@ footer {
     text-decoration: none;
     padding-top: 100px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -886,7 +886,7 @@ footer {
     text-align: left;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -918,7 +918,7 @@ footer {
     text-decoration: none;
     padding-top: 200px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -932,7 +932,7 @@ footer {
     text-align: left;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -969,7 +969,7 @@ footer {
     text-decoration: none;
     padding-top: 200px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -985,7 +985,7 @@ footer {
     text-align: left;
     text-decoration: none;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -1085,12 +1085,12 @@ footer {
 }
 
 .account-container .login-input-container h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
     letter-spacing: 3px;
 }
 
 .account-container .forget-statement {
-    font-size: 12px;
+    font-size: .75rem;
     letter-spacing: 1px;
 }
 
@@ -1448,7 +1448,7 @@ footer {
     color: white;
     padding: 10px 10px;
     display: inline-block;
-    font-size: 15px;
+    font-size: .9rem;
     margin: 15px 15px;
     cursor: pointer;
 }
@@ -1536,7 +1536,7 @@ footer {
 .contact-us-grid-container .statement-shot {
     grid-area: row2;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -1544,7 +1544,7 @@ footer {
 .contact-us-grid-container .statement-contact {
     grid-area: row3;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     letter-spacing: 1px;
 }
 
@@ -1670,7 +1670,7 @@ footer {
     border: 2px solid #36827F;
     box-sizing: border-box;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 2px;
     color: #120000;
 }
@@ -1715,13 +1715,13 @@ footer {
 .contact-us-grid-container .call-us {
     grid-area: row7;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     letter-spacing: 4px;
 }
 
 .contact-us-grid-container .tel1, .contact-us-grid-container .tel2, .contact-us-grid-container .tel3 {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -1744,7 +1744,7 @@ footer {
     text-decoration: none;
     padding-top: 50px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -1775,14 +1775,14 @@ footer {
 .contact-us-grid-container .opening-hours {
     grid-area: row13;
     padding-top: 50px;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
 .contact-us-grid-container .opening-hours1, .contact-us-grid-container .opening-hours2 {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -2069,7 +2069,7 @@ footer {
     text-decoration: none;
     padding-top: 50px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -2081,7 +2081,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 1px;
     color: #C1C1C1;
@@ -2216,7 +2216,7 @@ footer {
     box-sizing: border-box;
     cursor: pointer;
     font-family: Verdana, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 2px;
     color: #120000;
 }
