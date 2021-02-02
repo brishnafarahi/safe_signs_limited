@@ -490,10 +490,8 @@ footer {
 
 .products-section {
     padding: 10rem 0;
-    background-color: #292A28;
     display: flex;
     justify-content: space-around;
-    /*border: red 1px solid;*/
 }
 
 .products-container{
@@ -1445,7 +1443,7 @@ footer {
     object-fit: cover;
 }
 .const-section .button1{
-    background-color: #45e19f;
+    background-color: #204f3a;
     border: none;
     color: white;
     padding: 10px 10px;
@@ -1823,7 +1821,6 @@ footer {
 
 .corporate-team-section {
     padding: 10rem 0;
-    background-color: #292A28;
     display: flex;
     justify-content: space-around;
     /*border: red 1px solid;*/
@@ -2250,7 +2247,6 @@ footer {
 
 .services-section{
     padding: 5rem 0;
-    background-color: #292A28;
     width: 100%;
 
 
@@ -2397,7 +2393,6 @@ footer {
 
 .vest-section{
     padding: 10rem 0;
-    background-color: #292A28;
     display: flex;
     justify-content: space-around;
     /*border: red 1px solid;*/
