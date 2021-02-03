@@ -150,7 +150,7 @@ footer {
     padding: 10px;
 }
 
-.copyright, .footer-items > a {
+.copyright, .footer-items > a, .duties{
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 1.1rem;
     letter-spacing: 1px;
