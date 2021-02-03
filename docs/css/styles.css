@@ -592,8 +592,8 @@ footer {
     align-items: center;
     background-color: WHITE;
     overflow: hidden;
-    min-height: 500px;
-    max-height: 500px;
+    min-height: 550px;
+    max-height: 600px;
 }
 
 .products-container .card h3{
@@ -1429,7 +1429,7 @@ footer {
 }
 
 .const-section .grid-container > div{
-    background-color: #36827F;
+    background-color: #ffffff;
     padding: 20px;
     font-family: Arial, Helvetica;
 }
@@ -1466,7 +1466,7 @@ footer {
     object-fit: cover;
 }
 .const-section .button1{
-    background-color: #204f3a;
+    background-color: #445ae3;;
     border: none;
     color: white;
     padding: 10px 10px;
@@ -1688,7 +1688,7 @@ footer {
 .contact-us-grid-container input[type=submit] {
     width: 30%;
     height: 70%;
-    background-color: #36827F;
+    background-color: #C1C1C1;
     display: inline-block;
     border: 2px solid #36827F;
     box-sizing: border-box;
@@ -2233,7 +2233,7 @@ footer {
 .custom-grid-container2 input[type=submit]{
     width: 30%;
     height: 70%;
-    background-color: #36827F;
+    background-color: #C1C1C1;
     display: inline-block;
     border: 2px solid #36827F;
     box-sizing: border-box;
