@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" href="../favicon.svg"/>
+    <link rel="mask-icon" href="../mask-icon.svg" color="#000000"/>
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png"/>
+    <link rel="manifest" href="../manifest.json"/>
     <meta charset="UTF-8" />
     <meta content="width=device-width" name="viewport" />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <meta content="Zain Khurram Chaudhary" name="author" />
-    <link href="../css/header-footer.css" rel="stylesheet" />
-    <link href="../css/contact-us.css" rel="stylesheet" />
-    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="../css/styles.css"/>
+
+    <script type="application/ld+json">
+        {
+            "@context" : "https://schema.org",
+            "@type": "BreadcrumbList",
+            "description": "You can contact our experts if you have any question related to our webpage or product.",
+            "itemListElement":
+            [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Homepage",
+                    "item": "https://brishnafarahi.github.io/safe_signs_limited/"
+
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Contact Us",
+                    "item": "https://brishnafarahi.github.io/safe_signs_limited/common/contact_us.html"
+
+                }
+            ]
+        }
+    </script>
+    <title>Contact Us - Safe Signs Limited</title>
+    <meta name="description" content="You can contact our experts if you have any question related to our webpage or product."/>
+
 </head>
 <body>
 
@@ -16,14 +47,15 @@
 <header>
     <nav>
         <div class="logo">
-            <a class="logo-img" href="../index.html"><img alt="Company's Logo" height="100" src="../img/Logo.svg"
-                                                          width="100"/></a>
+            <a class="logo-img" href="../index.html" tabindex="0"><img alt="Company's Logo" height="100" src="../img/Logo.svg"
+                                                                       width="100"/></a>
+            <h1>Safe Signs Limited</h1>
         </div>
         <div class="menu-items">
-            <a class="menu-item1" href="../common/products.html">Products</a>
-            <a class="menu-item2" href="../common/services.html">Services</a>
-            <a class="menu-item3" href="../common/partners.html">Partners</a>
-            <a class="menu-item4" href="../common/account.html">Account</a>
+            <a class="menu-item1" href="../common/products.html" tabindex="0">Products</a>
+            <a class="menu-item2" href="../common/services.html" tabindex="0">Services</a>
+            <a class="menu-item3" href="../common/partners.html" tabindex="0">Partners</a>
+            <a class="menu-item4" href="../common/account.html" tabindex="0">Account</a>
         </div>
         <div class="breadcrumbs-container">
             <ul class="breadcrumb">
@@ -36,29 +68,37 @@
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
+        <noscript class="menu-items-javascript-disabled">
+            <ul>
+                <li><a class="menu-item1" href="../common/products.html">Products</a></li>
+                <li><a class="menu-item2" href="../common/services.html">Services</a></li>
+                <li><a class="menu-item3" href="../common/partners.html">Partners</a></li>
+                <li><a class="menu-item4" href="../common/account.html">Account</a></li>
+            </ul>
+        </noscript>
     </nav>
 </header>
 
 
 <main>
-    <div class="grid-container">
-        <div class="banner"><img src="../img/banners/dart.jpg" alt="" /></div>
-        <div class="statement-shot">Give us a shot</div>
+    <div class="contact-us-grid-container">
+        <div class="banner"><img src="../img/banners/dart.jpg" alt="" width="1920" height="600"/></div>
+        <h2 class="statement-shot">Give us a shot</h2>
         <div class="statement-contact">Use the form below to get in contact with us</div>
-        <div class="input-line1"><input id="first-name" name="first-name" placeholder="First Name*" type="text" /></div>
-        <div class="input-line2"><input id="last-name" name="last-name" placeholder="Last Name*" type="text" /></div>
-        <div class="input-line3"><input id="email" name="email" placeholder="Email*" type="email" /></div>
-        <div class="input-line4"><input id="phone-number" name="phone-number" placeholder="Phone Number*" type="tel" />
+        <div class="input-line1"><label for="first-name">First Name</label><input id="first-name" name="first-name" placeholder="First Name*" type="text" tabindex="0"/></div>
+        <div class="input-line2"><label for="last-name">Last Name</label><input id="last-name" name="last-name" placeholder="Last Name*" type="text" tabindex="0"/></div>
+        <div class="input-line3"><label for="email">Email</label><input id="email" name="email" placeholder="Email*" type="email" tabindex="0"/></div>
+        <div class="input-line4"><label for="phone-number">Phone Number</label><input id="phone-number" name="phone-number" placeholder="Phone Number*" type="tel" tabindex="0"/>
         </div>
-        <div class="input-line5"><input id="website" name="website" placeholder="Website" type="url" /></div>
-        <div class="input-line6"><input id="company" name="company" placeholder="Company" type="text" /></div>
-        <div class="text-area"><textarea id="text-input" placeholder="How can we help you?"></textarea></div>
-        <div class="submit-button"><input type="submit" value="Submit" /></div>
-        <div class="call-us">You can also call us</div>
+        <div class="input-line5"><label for="website">Website</label><input id="website" name="website" placeholder="Website" type="url" tabindex="0"/></div>
+        <div class="input-line6"><label for="company">Company</label><input id="company" name="company" placeholder="Company" type="text" tabindex="0"/></div>
+        <div class="text-area"><label for="text-input">Comments</label><textarea id="text-input" placeholder="How can we help you?" tabindex="0"></textarea></div>
+        <div class="submit-button"><input type="submit" value="Submit" tabindex="0"/></div>
+        <h3 class="call-us">You can also call us</h3>
         <div class="tel1">tel1: +49 152 00000000</div>
         <div class="tel2">tel1: +49 152 11111111</div>
         <div class="tel3">tel1: +49 152 22222222</div>
-        <div class="visit-us">Or just visit us personally</div>
+        <h3 class="visit-us">Or just visit us personally</h3>
         <div class="google-map">
             <iframe allowfullscreen=""
                     aria-hidden="false" height="450"
@@ -66,27 +106,27 @@
                     style="border:4px solid #36827F;" tabindex="0"
                     width="100"></iframe>
         </div>
-        <div class="opening-hours">Opening hours</div>
-        <div class="opening-hours1">Mo-Fr: 08:00 - 22:00</div>
-        <div class="opening-hours2">Sa-So: Closed</div>
+        <h3 class="opening-hours">Opening hours</h3>
+        <h4 class="opening-hours1">Mo-Fr: 08:00 - 22:00</h4>
+        <h4 class="opening-hours2">Sa-So: Closed</h4>
     </div>
 </main>
 
 
 <footer>
     <div class="footer-items">
-        <div class="copyright"><h4>&#169; 2020 Safe Sign Limited, All Rights Reserved</h4></div>
-        <a class="" href="../common/contact_us.html">Contact Information</a>
-        <a class="" href="../common/about_us.html">About Our Company</a>
+        <div class="copyright"><p>&#169; 2020 Safe Sign Limited, All Rights Reserved</p></div>
+        <a class="" href="../common/contact_us.html" tabindex="0">Contact Information</a>
+        <a class="" href="../common/about_us.html" tabindex="0">About Us</a>
         <div class="social">
             <div class="social-items">
-                <a href="https://www.facebook.com/safesignslimited"><img alt="" height="59" src="../img/facebook.png"
-                                                                         width="62"/></a>
-                <a href="https://www.twitter.com/safesignslimited"><img alt="" height="59" src="../img/twitter.png"
-                                                                        width="50"/></a>
-                <a class="instagram" href="https://www.instagram.com/safesignslimited"><img alt="" height="38"
-                                                                                            src="../img/instagram.png"
-                                                                                            width="38"/></a>
+                <a href="https://www.facebook.com/safesignslimited" tabindex="0"><img alt="Facebook Icon" height="59" src="../img/facebook.png"
+                                                                                      width="62"/></a>
+                <a href="https://www.twitter.com/safesignslimited" tabindex="0"><img alt="Twitter Icon" height="59" src="../img/twitter.png"
+                                                                                     width="50"/></a>
+                <a class="instagram" href="https://www.instagram.com/safesignslimited" tabindex="0"><img alt="Instagram Icon" height="38"
+                                                                                                         src="../img/instagram.png"
+                                                                                                         width="38"/></a>
             </div>
         </div>
     </div>

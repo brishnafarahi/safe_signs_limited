@@ -1,80 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" href="favicon.svg"/>
+    <link rel="mask-icon" href="mask-icon.svg" color="#000000"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="manifest" href="manifest.json"/>
     <meta charset="UTF-8"/>
     <meta content="width=device-width" name="viewport"/>
     <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
     <meta content="Zain Khurram Chaudhary" name="author"/>
-    <link href="css/header-footer.css" rel="stylesheet"/>
-    <link href="css/homepage.css" rel="stylesheet"/>
-    <title>Home</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script type="application/ld+json">
+        {
+            "@context" : "https://schema.org",
+            "@type" : "LocalBusiness",
+            "url": "https://brishnafarahi.github.io/safe_signs_limited/",
+            "image": "https://brishnafarahi.github.io/safe_signs_limited/img/Logo.svg",
+            "name" : "Safe Signs Limited",
+            "telephone": "+4915200000000",
+            "priceRange": "10-20€",
+            "description": "At Safety Signs Limited we design, produce, and sell digitally crafted, low cost safety signs to help you and the people around you to stay safe",
+            "address" : {
+                "@type": "PostalAddress",
+                "streetAddress": "University street 5",
+                "addressLocality" : "Cottbus",
+                "addressRegion" : "Brandenburg",
+                "addressCountry" : "Germany",
+                "postalCode" : "03046"
+            }
+        }
+    </script>
+    <title>Homepage - Safe Signs Limited</title>
+    <meta name="description" content="At Safety Signs Limited we design, produce, and sell digitally crafted, low cost safety signs to help you and the people around you to stay safe"/>
+
 </head>
 <body>
 
 <header>
     <nav>
         <div class="logo">
-            <a class="logo-img" href="index.html"><img alt="Company's Logo" height="100" src="img/Logo.svg"
-                                                       width="100"/></a>
+            <a class="logo-img" href="index.html" tabindex="0"><img alt="Company's Logo" height="100" src="img/Logo.svg"
+                                                                    width="100"/></a>
+            <h1>Safe Signs Limited</h1>
         </div>
         <div class="menu-items">
-            <a class="menu-item1" href="common/products.html">Products</a>
-            <a class="menu-item2" href="common/services.html">Services</a>
-            <a class="menu-item3" href="common/partners.html">Partners</a>
-            <a class="menu-item4" href="common/account.html">Account</a>
+            <a class="menu-item1" href="common/products.html" tabindex="0">Products</a>
+            <a class="menu-item2" href="common/services.html" tabindex="0">Services</a>
+            <a class="menu-item3" href="common/partners.html" tabindex="0">Partners</a>
+            <a class="menu-item4" href="common/account.html" tabindex="0">Account</a>
         </div>
-<!--        <div class="breadcrumbs-container">-->
-<!--            <ul class="breadcrumb">-->
-<!--                <li><a href="#">Home</a></li>-->
-<!--            </ul>-->
-<!--        </div>-->
         <div class="hamburger-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
+        <noscript class="menu-items-javascript-disabled">
+            <ul>
+                <li><a class="menu-item1" href="common/products.html">Products</a></li>
+                <li><a class="menu-item2" href="common/services.html">Services</a></li>
+                <li><a class="menu-item3" href="common/partners.html">Partners</a></li>
+                <li><a class="menu-item4" href="common/account.html">Account</a></li>
+            </ul>
+        </noscript>
     </nav>
 </header>
 
 <main>
-    <div class="container">
+    <div class="homepage-container">
         <div class="banner">
             <picture>
                 <source media="(max-width:700px)" srcset="img/banners/lighthouse-1111w.jpg"/>
                 <source media="(min-width:700px)" srcset="img/banners/lighthouse-2223w.jpg"/>
-                <img alt="Flowers" src="img/banners/partners-c.jpg"/>
+                <img alt="Image banner" src="img/banners/partners-c.jpg" width="1920" height="408"/>
             </picture>
         </div>
         <div class="banner-text">
-            <h1>For us</h1>
-            <h4>It is not just business</h4>
-            <h1>we want to save lives</h1>
+            <p class="big">For us</p>
+            <p class="small">It is not just business</p>
+            <p class="big">we want to save lives</p>
         </div>
         <div class="service-statement">
-            <h1>Our Services</h1>
-            <h4>custom made to fit your needs</h4>
+            <h2>Our Services</h2>
+            <p>custom made to fit your needs</p>
         </div>
         <div class="services">
             <div class="service1">
-                <h1>Digital Safety Signs</h1>
-                <img alt="Service1 Image" src="img/digital_safety_signs/img2.png"/>
+                <h3>Digital Safety Signs</h3>
+
+                <img alt="Image for our service Digital safety signs" src="img/digital_safety_signs/img2.png" width="494" height="494"/>
+
                 <p> Our smaller digital printing facility is designed for short runs of useful labels
                     which can be numbered or coded. This enables Display Signs to offer a wide range of self
                     adhesive products encompassing…
                 </p>
             </div>
             <div class="service2">
-                <h1>Photo Luminescent Signs</h1>
-                <img alt="Service2 Image" src="img/photoluminous_signs/img1.jpg"/>
+                <h3>Photo Luminescent Signs</h3>
+
+                <img alt="Image for our service Photo Luminescent Signs" src="img/photoluminous_signs/img1.jpg" width="500" height="333"/>
+
                 <p> Our ultra-bright photoluminous safety signs glow-in-the-dark when lighting has failed or
                     been switched off, making them invaluable in the event of an emergency. View our wide range
                     of luminous signs.
                 </p>
             </div>
             <div class="service3">
-                <h1>Transparent Stickers</h1>
-                <img alt="Service3 Image" src="img/transparet_safety_stickers/img2.png"/>
+                <h3>Transparent Stickers</h3>
+
+                <img alt="Image for our service Transparent Stickers" src="img/transparet_safety_stickers/img2.png" width="512" height="512"/>
+
                 <p> We have a huge range of Transparent Stickers. All designs, including colours and symbols,
                     adhere to international safety standards. We laminate all of our products to make them more
                     resistant to Scratches, Fading, UV radiation, Acids and Alkalies
@@ -83,16 +118,16 @@
         </div>
         <div class="video-and-sample-products">
             <div class="video-container">
-                <h1>You asked why??</h1>
+                <h2>You asked why??</h2>
                 <div class="video-given">
                     <iframe allowfullscreen="" src="https://www.youtube.com/embed/5PrAybF5mJg"
                             style="border: #36827F 1px solid"></iframe>
                 </div>
             </div>
             <div class="sample-products">
-                <h1>Sample Products</h1>
+                <h2>Sample Products</h2>
                 <div class="product1">
-                    <img alt="sample product1" src="img/traffic-signs/img1.png"/>
+                    <img alt="Sample Image of Cross Road" src="img/traffic-signs/img1.png" width="250" height="270"/>
                     <p><b>METAL (RECYCLED)</b></p>
                     <p><b>Thickness:</b> 0.6mm</p>
                     <p><b>Lifespan:</b> up to 7 years</p>
@@ -101,7 +136,9 @@
                     <p><b>Price: 10 EUR</b></p>
                 </div>
                 <div class="product2">
-                    <img alt="sample product1" src="img/traffic-signs/img2.png"/>
+
+                    <img alt="Sample Image of Steep Hill" src="img/traffic-signs/img2.png" width="340" height="270"/>
+
                     <p><b>METAL (RECYCLED)</b></p>
                     <p><b>Thickness:</b> 0.6mm</p>
                     <p><b>Lifespan:</b> up to 7 years</p>
@@ -116,20 +153,21 @@
 
 <footer>
     <div class="footer-items">
-        <div class="copyright"><h4>&#169; 2020 Safe Sign Limited, All Rights Reserved</h4></div>
-        <a class="" href="common/contact_us.html">Contact Information</a>
-        <a class="" href="common/about_us.html">About Our Company</a>
+        <div class="copyright">&#169; 2020 Safe Sign Limited, All Rights Reserved</div>
+        <a class="" href="common/contact_us.html" tabindex="0">Contact Information</a>
+        <a class="" href="common/about_us.html" tabindex="0">About Our Company</a>
         <div class="social">
             <div class="social-items">
-                <a href="https://www.facebook.com/safesignslimited"><img alt="" height="59" src="img/facebook.png"
-                                                                         width="62"/></a>
-                <a href="https://www.twitter.com/safesignslimited"><img alt="" height="59" src="img/twitter.png"
-                                                                        width="50"/></a>
-                <a class="instagram" href="https://www.instagram.com/safesignslimited"><img alt="" height="38"
-                                                                                            src="img/instagram.png"
-                                                                                            width="38"/></a>
+                <a href="https://www.facebook.com/safesignslimited" tabindex="0"><img alt="facebook icon" height="59" src="img/facebook.png"
+                                                                                      width="62"/></a>
+                <a href="https://www.twitter.com/safesignslimited" tabindex="0"><img alt="twitter icon" height="59" src="img/twitter.png"
+                                                                                     width="50"/></a>
+                <a class="instagram" href="https://www.instagram.com/safesignslimited" tabindex="0"><img alt="instagram icon" height="38"
+                                                                                                         src="img/instagram.png"
+                                                                                                         width="38"/></a>
             </div>
         </div>
+        <div class="duties">Accessibility by Chaudhary, SEO by Ghazlan</div>
     </div>
 </footer>
 

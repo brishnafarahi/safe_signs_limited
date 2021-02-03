@@ -12,16 +12,16 @@ xmlDoc=xmlhttp.responseXML;
 
 x=xmlDoc.getElementsByTagName("product");
 
-index_card1=-1;
-index_card2=-1;
-index_card3=-1;
-index_card4=-1;
-index_card5=-1;
-index_card6=3;
-index_card7=3;
-index_card8=3;
-index_card9=3;
-index_card10=3;
+index_card1=0;
+index_card2=0;
+index_card3=0;
+index_card4=0;
+index_card5=0;
+index_card6=4;
+index_card7=4;
+index_card8=4;
+index_card9=4;
+index_card10=4;
 
 function displayCard(index) {
     let title=(x[index].getElementsByTagName("title")[0].childNodes[0].nodeValue);
@@ -31,7 +31,7 @@ function displayCard(index) {
     let coating=(x[index].getElementsByTagName("coating")[0].childNodes[0].nodeValue);
     let edgesAndMount=(x[index].getElementsByTagName("EdgesAndMount")[0].childNodes[0].nodeValue);
     let price=(x[index].getElementsByTagName("price")[0].childNodes[0].nodeValue);
-    let txt="title: " + title + "<br>Material: " + material + "<br>thickness: "+ thickness  + "<br>lifespan: " + lifespan + "<br>coating: "+ coating + "<br>edgesAndMount: " + edgesAndMount + "<br> price:" + price;
+    let txt="Title: " + title + "<br>Material: " + material + "<br>Thickness: "+ thickness  + "<br>Lifespan: " + lifespan + "<br>Coating: "+ coating + "<br>Edges And Mount: " + edgesAndMount + "<br> Price:" + price;
     return txt
 }
 
