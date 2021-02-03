@@ -436,6 +436,17 @@ footer {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.vest-container .card p{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: BLACK;
+}
+
 .homepage-container .sample-products {
     display: flex;
     flex-direction: column;
@@ -679,7 +690,7 @@ footer {
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #1C1B17;
+    color: #ffffff;
     top: 45%;
 }
 
@@ -702,7 +713,7 @@ footer {
     grid-template-columns: auto 20% 20% 20% 20% auto;
     grid-template-areas:
             "row30 row31 row32 row33 row34 row35"
-            "row40 row41 row42 row43 row44 row45";
+            "row40 row41 row42 row42 row44 row45";
 
     width: 100%;
     padding: 100px 20px 50px 20px;
@@ -718,18 +729,22 @@ footer {
     width: 100%;
 }
 
-.partners-main .partner9 img, .partners-main .partner6 img{
-    width: 90%;
+.partners-main .partner9 img {
+    width: 50%;
 }
 
 .partners-main .partner1 img, .partners-main .partner2 img, .partners-main .partner4 img, .partners-main .partner5 img,
 .partners-main .partner8 img, .partners-main .partner11 img {
-    width: auto;
+    width: 50%;
 }
 
 .partners-main .partner6, .partners-main .partner9 {
     display: flex;
     align-items: center;
+}
+
+.partners-main .partner6 img {
+    width: 30%;
 }
 
 
@@ -746,19 +761,24 @@ footer {
     grid-area: row41;
 }
 .partners-main .partner6 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
     grid-area: row42;
+    width: 100%;
 }
-.partners-main .partner8 {
-    grid-area: row33;
-}
+/*.partners-main .partner8 {*/
+/*    grid-area: row33;*/
+/*}*/
 .partners-main .partner9 {
     grid-area: row44;
 }
 .partners-main .partner11 {
-    grid-area: row43;
+    grid-area: row33;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 700px) {
     footer {
         position: unset;
         bottom: unset;
