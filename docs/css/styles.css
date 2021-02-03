@@ -571,7 +571,7 @@ footer {
     border: none;
     outline: 0;
     padding: 12px;
-    background-color: WHITE;
+    /*background-color: WHITE;*/
     text-align: center;
     cursor: pointer;
     width: 100%;
