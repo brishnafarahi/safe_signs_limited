@@ -359,13 +359,14 @@ footer {
     grid-template-columns: auto auto auto;
     column-gap: 20px;
     font-family: Verdana, Helvetica, sans-serif;
-    color: #FFFFFF;
+    color: BLACK;
 }
 
 .homepage-container .service1, .homepage-container .service2, .homepage-container .service3 {
     padding: 15px;
     text-align: center;
-    background-color: #36827F;
+    background-color: #ffffff;
+    /*background-color: #36827F;*/
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -449,7 +450,8 @@ footer {
 
 .homepage-container .product1, .homepage-container .product2 {
     padding: 20px;
-    background-color: #36827F;
+    background-color: #ffffff;
+    /*background-color: #36827F;*/
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -569,7 +571,7 @@ footer {
     border: none;
     outline: 0;
     padding: 12px;
-    background-color: skyblue;
+    background-color: WHITE;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -588,7 +590,7 @@ footer {
     margin: 2rem 0;
     box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
     align-items: center;
-    background-color: skyblue;
+    background-color: WHITE;
     overflow: hidden;
     min-height: 500px;
     max-height: 500px;
