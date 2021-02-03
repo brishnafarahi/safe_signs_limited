@@ -457,6 +457,7 @@ footer {
 
 .homepage-container .sample-products img {
     height: 100px;
+    width: auto;
 }
 
 .homepage-container .product1, .homepage-container .product2 {
@@ -734,6 +735,7 @@ footer {
 .partners-main .partners-container .card-wrapper .card img {
     width: 50%;
     padding-top: 1rem;
+    height: auto;
 }
 
 .partners-main .partners-container .card-wrapper .card:last-child img {
@@ -808,6 +810,7 @@ footer {
 .about-us-main .vision-image img {
     outline: #36827F 2px solid;
     width: 100%;
+    height: auto;
 }
 
 .about-us-main .vision {
@@ -852,11 +855,13 @@ footer {
     grid-area: row41;
     padding-left: 100px;
     width: 100%;
+
 }
 
 .about-us-main .purpose-image img {
     outline: #36827F 2px solid;
     width: 100%;
+    height: auto;
 }
 
 .about-us-main .purpose {
@@ -908,6 +913,7 @@ footer {
 .about-us-main .mission-image img {
     outline: #36827F 2px solid;
     width: 100%;
+    height: auto;
 }
 
 .about-us-main .mission {
@@ -1014,6 +1020,7 @@ footer {
 
 .account-container .logo-container img {
     width: 25vw;
+    height: auto;
 }
 
 .account-container .login-input-container {
@@ -1297,6 +1304,7 @@ footer {
 
 .contact-us-grid-container .banner img {
     width: 100%;
+    height: auto;
 }
 
 .contact-us-grid-container .statement-shot, .contact-us-grid-container .statement-contact {
@@ -1815,7 +1823,7 @@ footer {
 
 .custom-grid-container2 .card-img{
     height: 250px;
-
+    width: auto;
 
 }
 .custom-grid-container2 .headerUpload{
@@ -1834,6 +1842,7 @@ footer {
 
 .custom-grid-container .banner img {
     width: 100%;
+    height: auto;
 }
 
 .custom-grid-container .statement-shot{
