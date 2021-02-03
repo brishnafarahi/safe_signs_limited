@@ -1152,14 +1152,14 @@ footer {
 }
 
 .account-container input[type=submit], select {
-    width: 50%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 2px solid #36827F;
+    border: 2px solid #ffffff;
     border-radius: 25px;
     box-sizing: border-box;
-    background-color: #36827F;
+    background-color: WHITE;
 }
 
 .account-container input[type=submit]:hover {
