@@ -2297,8 +2297,11 @@ footer {
 ====================================================================================================================*/
 
 label {
+    /*position: absolute;*/
+    /*visibility: hidden;*/
     position: absolute;
-    visibility: hidden;
+    top:-1000px;
+    left:-1000px;
     color: white;
 }
 
